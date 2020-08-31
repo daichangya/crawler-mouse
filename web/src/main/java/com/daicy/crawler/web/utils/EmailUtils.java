@@ -1,6 +1,7 @@
 package com.daicy.crawler.web.utils;
 
 import com.daicy.crawler.extension.utils.IPUtils;
+import com.daicy.crawler.web.Application;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -23,7 +24,7 @@ public class EmailUtils {
 
     private static final int MAX_FILE_SIZE = 10 * 1024 * 1024;
 
-    private static final String URL_TEMPLETE = "文件下载链接: http://%s:9080/%s\n";
+    private static final String URL_TEMPLETE = "文件下载链接: http://%s:" + Application.FILE_PORT + "/%s\n";
 
     private static Logger logger = LoggerFactory.getLogger(EmailUtils.class);
 
@@ -55,6 +56,6 @@ public class EmailUtils {
     }
 
     public static void main(String[] args) {
-        System.out.println(String.format(URL_TEMPLETE,"2","3"));
+        System.out.println(String.format(URL_TEMPLETE, "2", "3"));
     }
 }

@@ -1,0 +1,64 @@
+namespace: crawler # 命名空间
+name: crawler-mouse # 部署名称
+# start jenkins定义=================================================
+jenkins:
+#  project_path: xcardata/xcar-index/xcar-index-data-api  #jenkins工程目录，全部小写,中划线分割
+  project_path_tencent: tencent/crawler/crawler-mouse
+  qywx:
+    enabled: false  # 是否开启jenkins工程构建结果通知
+    to_user: zheng.xiao
+# end jenkins定义=================================================
+#start app 定义===============================================
+image: data-harbor.xcar.com.cn/crawler/crawler-mouse
+replicas: 4 #副本数
+env:
+  # jvm 参数
+  jvm_parameters: -Xmx3000M -Xms3000M -XX:MaxMetaspaceSize=200M -XX:MetaspaceSize=200M -XX:+UseG1GC -XX:MaxGCPauseMillis=100
+  # springboot 配置环境(dev/prod),这个参数会通过jenkins根据部署环境自动注入(线上prod，其他dev)
+  profile_name: dev
+health:
+  check:
+    enabled: true
+    type: actuator    # actuator/tcp
+    delay: 60
+#host_aliases:
+#  - hostnames:
+#      - m3306.mysql.bg.xcar.com.cn
+#    ip: 10.32.40.44
+# 资源限制,一般limits/requests的cpu/memory设置相同,cpu:m memory:Mi/Gi
+resources:
+  enabled: true
+  # 资源上限
+  limits:
+    cpu: 4000m
+    memory: 4Gi
+  # 资源下限
+  requests:
+    cpu: 4000m
+    memory: 4Gi
+## 如果prometheus.check=true,会自动增加如下配置
+## 强制修改health.type=actuator,且prometheus.io/port取health.port
+#  template:
+#    metadata:
+#      annotations:
+#        prometheus.io/path: /actuator/prometheus
+#        prometheus.io/port: "8081"
+#        prometheus.io/scrape: "true"
+prometheus:
+  check: true
+#end app 定义==================================================
+
+#start 服务暴露 定义============================================
+# 如ingress.enable=true,自动开启service
+ingress:
+  enabled: true
+  host: crawler.xcar.com.cn  # 如果ingress.enabled=true ，host必填
+#  path: /xcar-index-data-api
+#  expand_path: /xcar-data-api
+#  configuration_snippet:
+#    prefix: /xcar-data-api/(.*)
+#    suffix: /xcar-index-data-api/$1
+#  protocol: http  ## http/https
+#  affinity: false  #  是否开启session保持，如开启，增加{nginx.ingress.kubernetes.io/affinity: cookie,nginx.ingress.kubernetes.io/session-cookie-hash: sha1,nginx.ingress.kubernetes.io/session-cookie-name: route}
+#  body_size: 64m  # 接口上传限制，默认8m，对应属性nginx.ingress.kubernetes.io/proxy-body-size:64m
+#end 服务暴露 定义===============================================

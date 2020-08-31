@@ -13,9 +13,11 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
 
+	public static final int FILE_PORT = 9080;
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		FileServer fileServer = new FileServer(9080, null);
+		FileServer fileServer = new FileServer(FILE_PORT, null);
 		fileServer.start();
 	}
 
