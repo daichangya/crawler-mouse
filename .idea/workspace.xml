@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f2827f-7cd7-45c4-92c2-d19ce309dcfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/.helm-spring-boot.yaml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/Application.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/Application.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/utils/EmailUtils.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/utils/EmailUtils.java" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,8 +99,8 @@
       <file leaf-file-name=".helm-spring-boot.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/.helm-spring-boot.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+            <state relative-caret-position="233">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -676,7 +671,7 @@
       <workItem from="1597804298584" duration="60630000" />
       <workItem from="1598000056429" duration="44289000" />
       <workItem from="1598257632282" duration="89510000" />
-      <workItem from="1598525939583" duration="22117000" />
+      <workItem from="1598525939583" duration="22162000" />
     </task>
     <servers />
   </component>
@@ -713,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216546000" />
+    <option name="totallyTimeSpent" value="216591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
@@ -1567,8 +1562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/.helm-spring-boot.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        <state relative-caret-position="233">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding />
         </state>
       </provider>
