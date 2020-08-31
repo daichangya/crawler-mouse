@@ -1,0 +1,91 @@
+{
+  "pipelineToModel": {
+    "com.daicy.crawler.web.pipeline.ListDownPipeline": [
+      {
+        "targetUrl": {
+          "value": [
+            ".*club.autohome.com.cn/bbs/forum-.*html"
+          ]
+        },
+        "fieldModels": [
+          {
+            "name": "title",
+            "extractBy": {
+              "value": "/html/head/title/text()",
+              "source": "RawHtml"
+            }
+          },
+          {
+            "name": "content",
+            "extractBy": {
+              "value": "//*/ul[@class='post-list']"
+            }
+          },
+          {
+            "name": "links",
+            "type": "java.util.List",
+            "extractBy": {
+              "value": "//*/p[@class='post-title']/a/@href"
+            }
+          }
+        ]
+      }
+    ],
+    "com.daicy.crawler.web.pipeline.ImageDownPipeline": [
+      {
+        "targetUrl": {
+          "value": [
+            ".*club.autohome.com.cn/bbs/thread/.*/.*"
+          ]
+        },
+        "extractBy": {
+          "value": "//*/div[@id='maxwrap-maintopic']//*/div[@class='rconten']"
+        },
+        "fieldModels": [
+          {
+            "name": "title",
+            "extractBy": {
+              "value": "//*/div[@class='maxtitle']/text()",
+              "source": "RawHtml"
+            }
+          },
+          {
+            "name": "content",
+            "extractBy": {
+              "value": "//*/div[@class='conttxt']"
+            }
+          },
+          {
+            "name": "imageList",
+            "type": "java.util.List",
+            "extractBy": {
+              "value": "//*/img/@src"
+            }
+          },
+          {
+            "name": "url",
+            "extractByUrl": {
+              "value": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "startUrls": [
+    "#startUrls#"
+  ],
+  "site": {
+    "userAgent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)",
+    "retryTimes": 2,
+    "useRealBrowser": true,
+    "userProxyProvider": true
+  },
+  "threadNum": 3,
+  "plugins": [
+    "com.daicy.crawler.web.plugin.AfterCrawlingZip"
+  ],
+  "parameters":{
+    "email":"#email#"
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler-mouse.iml" filepath="$PROJECT_DIR$/crawler-mouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/downer/downer.iml" filepath="$PROJECT_DIR$/downer/downer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extension/extension.iml" filepath="$PROJECT_DIR$/extension/extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-server/file-server.iml" filepath="$PROJECT_DIR$/file-server/file-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webdriver/webdriver.iml" filepath="$PROJECT_DIR$/webdriver/webdriver.iml" />
+    </modules>
+  </component>
+</project>
