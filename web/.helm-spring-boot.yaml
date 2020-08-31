@@ -20,7 +20,7 @@ health:
   check:
     enabled: true
     type: actuator    # actuator/tcp
-    delay: 60
+    delay: 30
 #host_aliases:
 #  - hostnames:
 #      - m3306.mysql.bg.xcar.com.cn

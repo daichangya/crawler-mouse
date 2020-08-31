@@ -1,0 +1,10 @@
+management:
+  endpoint:
+    health:
+      show-details: always   #always/when_authorized/never
+  server:
+    port: 8081     #可以修改actuator暴露的端口和服务端口不一致,这个和spring boot的服务端口不一样,不要混淆
+  endpoints:
+    web:
+      exposure:
+        include: "*"
