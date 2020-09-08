@@ -16,6 +16,7 @@ public class Application {
 	public static final int FILE_PORT = 9080;
 
 	public static void main(String[] args) {
+		System.setProperty("data.home",System.getProperty("user.home")+"/data");
 		SpringApplication.run(Application.class, args);
 		FileServer fileServer = new FileServer(FILE_PORT, null);
 		fileServer.start();

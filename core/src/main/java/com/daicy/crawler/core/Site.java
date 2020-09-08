@@ -5,7 +5,7 @@ import com.daicy.crawler.core.processor.PageProcessor;
 import com.daicy.crawler.core.proxy.ProxyProvider;
 import com.daicy.crawler.core.utils.HttpConstant;
 import com.google.common.collect.Maps;
-import org.openqa.selenium.remote.AbstractDriverOptions;
+import org.openqa.selenium.MutableCapabilities;
 
 import java.util.*;
 
@@ -24,7 +24,7 @@ public class Site {
 
     private ProxyProvider proxyProvider;
 
-    private AbstractDriverOptions driverOptions = new AbstractDriverOptions();
+    private MutableCapabilities driverOptions = new MutableCapabilities();
 
     private boolean useRealBrowser = false;
 
@@ -342,11 +342,11 @@ public class Site {
     }
 
 
-    public AbstractDriverOptions getDriverOptions() {
+    public MutableCapabilities getDriverOptions() {
         return driverOptions;
     }
 
-    public Site setDriverOptions(AbstractDriverOptions driverOptions) {
+    public Site setDriverOptions(MutableCapabilities driverOptions) {
         this.driverOptions = driverOptions;
         return this;
     }

@@ -6,6 +6,7 @@ import com.daicy.crawler.core.selector.Json;
 import com.daicy.crawler.core.selector.Selectable;
 import com.daicy.crawler.core.utils.HttpConstant;
 import com.daicy.crawler.core.utils.UrlUtils;
+import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
@@ -53,6 +54,8 @@ public class Page {
     private byte[] bytes;
 
     private List<Request> targetRequests = new ArrayList<Request>();
+
+    private List<String> delTargetWords = Lists.newArrayList();
 
     private String charset;
     
@@ -258,6 +261,14 @@ public class Page {
 
     public void setCharset(String charset) {
         this.charset = charset;
+    }
+
+    public List<String> getDelTargetWords() {
+        return delTargetWords;
+    }
+
+    public void setDelTargetWords(List<String> delTargetWords) {
+        this.delTargetWords = delTargetWords;
     }
 
     @Override

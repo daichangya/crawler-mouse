@@ -6,6 +6,7 @@ import com.daicy.crawler.extension.model.annotation.*;
 import com.daicy.crawler.extension.model.formatter.ObjectFormatter;
 import com.daicy.crawler.extension.model.formatter.ObjectFormatterBuilder;
 import com.daicy.crawler.extension.utils.ExtractorUtils;
+import org.assertj.core.util.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+import static com.daicy.crawler.core.Request.DEL_KEY_WORD;
 import static com.daicy.crawler.extension.model.annotation.ExtractBy.Source.RawText;
 
 
@@ -222,6 +224,7 @@ class PageModelExtractor {
         Map map = null;
         try {
             map = new HashMap();
+            map.put(DynamicModel.REQUESTURL, page.getRequest().getUrl());
             for (FieldExtractor fieldExtractor : fieldExtractors) {
                 if (fieldExtractor.isMulti()) {
                     List<String> value;
@@ -291,7 +294,9 @@ class PageModelExtractor {
                 }
             }
         } catch (Exception e) {
-            logger.error("extract fail", e);
+            logger.error("extract fail content:{}", page.getRawText(), e);
+            page.setDelTargetWords(Lists.newArrayList((String) page.getRequest().getExtra(DEL_KEY_WORD)));
+            return null;
         }
         return map;
     }

@@ -183,9 +183,9 @@ public class HttpFileServerHandler extends SimpleChannelInboundHandler<FullHttpR
                 continue;
             }
             String name = f.getName();
-            if (!ALLOWED_FILE_NAME.matcher(name).matches()) {
-                continue;
-            }
+//            if (!ALLOWED_FILE_NAME.matcher(name).matches()) {
+//                continue;
+//            }
 
             sb.append("<li><a href=\"");
             sb.append(name);

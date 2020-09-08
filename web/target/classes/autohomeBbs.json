@@ -63,9 +63,11 @@
             }
           },
           {
-            "name": "url",
-            "extractByUrl": {
-              "value": ""
+            "name": "ttfUrl",
+            "extractBy": {
+              "value": "[A-Za-z0-9-_/.]*..ttf",
+              "type": "Regex",
+              "source": "RawHtml"
             }
           }
         ]
@@ -81,7 +83,7 @@
     "useRealBrowser": true,
     "userProxyProvider": true
   },
-  "threadNum": 3,
+  "threadNum": 2,
   "plugins": [
     "com.daicy.crawler.web.plugin.AfterCrawlingZip"
   ],

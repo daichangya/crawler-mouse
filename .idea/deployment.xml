@@ -5,7 +5,7 @@
       <paths name="10.52.24.41">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$/downer" web="/" />
+            <mapping local="$PROJECT_DIR$/common" web="/" />
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>

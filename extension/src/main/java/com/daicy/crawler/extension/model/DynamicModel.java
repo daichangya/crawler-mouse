@@ -16,6 +16,8 @@ public class DynamicModel {
 
     public static final String KEY = "DynamicModel";
 
+    public static final String REQUESTURL = "requestUrl";
+
     private TargetUrl targetUrl;
 
     private HelpUrl helpUrl;

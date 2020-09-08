@@ -7,5 +7,5 @@ package com.daicy.crawler.common.model;
  * @date:8/21/20
  */
 public enum BrowserType {
-    CHROME, FIREFOX
+    CHROME, FIREFOX,REMOTE
 }

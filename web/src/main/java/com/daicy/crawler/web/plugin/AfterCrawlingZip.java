@@ -25,7 +25,7 @@ public class AfterCrawlingZip implements AfterCrawlingPlugin {
 
     @Override
     public void handle(Spider spider) {
-        String home = System.getProperty("user.home");
+        String home = System.getProperty("data.home");
         String filePath = home + "/" + spider.getUUID();
         FileOutputStream fos1 = null;
         try {

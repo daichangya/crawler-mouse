@@ -8,14 +8,12 @@ import com.daicy.crawler.core.selector.Html;
 import com.daicy.crawler.core.selector.PlainText;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.awt.print.Pageable;
 import java.io.Closeable;
 import java.io.IOException;
-import java.time.Duration;
 
 /**
  * 使用Selenium调用浏览器进行渲染。目前仅支持chrome。<br>
@@ -33,10 +31,15 @@ public class WebDriverDownloader implements Downloader, Closeable {
 
     private int sleepTime = 0;
 
-    private int poolSize = 2;
+    private static int poolSize = 2;
+
+    public WebDriverDownloader(int poolSize, int useTime) {
+        webDriverPool = new WebDriverPool(poolSize, useTime);
+    }
+
 
     public WebDriverDownloader(int useTime) {
-        webDriverPool = new WebDriverPool(poolSize, useTime);
+        this(poolSize, useTime);
     }
 
     /**
@@ -64,10 +67,11 @@ public class WebDriverDownloader implements Downloader, Closeable {
         checkInit();
         WebDriver webDriver = null;
         try {
+            logger.info("download start url:{}", request.getUrl());
             webDriver = webDriverPool.get(task);
-        } catch (InterruptedException e) {
-            logger.warn("interrupted", e);
-            return null;
+        } catch (Exception e) {
+            logger.warn("download error", e);
+            return Page.fail();
         }
         Page page = new Page();
         try {
@@ -75,6 +79,10 @@ public class WebDriverDownloader implements Downloader, Closeable {
             String content = getPage(task, request.getUrl(), webDriver);
             if (StringUtils.equals("用户访问安全认证V3", webDriver.getTitle())) {
                 logger.warn("用户访问安全认证V3 url:{}", request.getUrl());
+                return Page.fail();
+            }
+            if (StringUtils.equals("ERROR: El URL solicitado no se ha podido conseguir", webDriver.getTitle())) {
+                logger.warn("ERROR: El URL solicitado no se ha podido conseguir url:{}", request.getUrl());
                 return Page.fail();
             }
             page.setRawText(content);
@@ -85,7 +93,7 @@ public class WebDriverDownloader implements Downloader, Closeable {
             logger.warn("TimeoutException request:{}", request);
             return Page.fail();
         } catch (Exception e) {
-            logger.error("Exception request:{}", request, e);
+            logger.error("download Exception request:{}", request, e);
             return Page.fail();
         } finally {
             logger.debug("down finish url:{}", request.getUrl());
@@ -100,7 +108,7 @@ public class WebDriverDownloader implements Downloader, Closeable {
                 WebElement webElement = null;
                 try {
                     webDriver.get(url);
-                    logger.debug("downloader title:{}", webDriver.getTitle());
+                    logger.debug("downloader url:{} title:{}", url, webDriver.getTitle());
                     return getContent(webDriver);
                 } catch (TimeoutException e) {
                     logger.warn("TimeoutException url:{}", url);
@@ -152,6 +160,7 @@ public class WebDriverDownloader implements Downloader, Closeable {
     @Override
     public void setThread(int thread) {
         this.poolSize = thread;
+        webDriverPool.setCapacity(thread);
     }
 
     @Override

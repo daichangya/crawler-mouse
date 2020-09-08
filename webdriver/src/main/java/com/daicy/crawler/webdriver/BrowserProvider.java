@@ -7,17 +7,20 @@ import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableSortedSet;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.remote.AbstractDriverOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.HttpCommandExecutor;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -94,10 +97,14 @@ public class BrowserProvider implements AutoCloseable {
         ImmutableSortedSet<String> filterAttributes = ImmutableSortedSet.<String>of();
         switch (browserType) {
             case CHROME:
-                browser = newChromeBrowser((ChromeOptions) driverOptions,filterAttributes, crawlWaitReload, crawlWaitEvent);
+                browser = newChromeBrowser((ChromeOptions) driverOptions, filterAttributes, crawlWaitReload, crawlWaitEvent);
                 break;
             case FIREFOX:
-                browser = newFirefoxBrowser((FirefoxOptions) driverOptions,filterAttributes, crawlWaitReload, crawlWaitEvent);
+                browser = newFirefoxBrowser((FirefoxOptions) driverOptions, filterAttributes, crawlWaitReload, crawlWaitEvent);
+                break;
+            case REMOTE:
+                browser = withRemoteDriver(driverOptions, filterAttributes,
+                        crawlWaitEvent, crawlWaitReload);
                 break;
             default:
                 throw new IllegalStateException("Unsupported browser type " + browserType);
@@ -109,7 +116,7 @@ public class BrowserProvider implements AutoCloseable {
         return browser;
     }
 
-    private EmbeddedBrowser newFirefoxBrowser(FirefoxOptions driverOptions,ImmutableSortedSet<String> filterAttributes,
+    private EmbeddedBrowser newFirefoxBrowser(FirefoxOptions driverOptions, ImmutableSortedSet<String> filterAttributes,
                                               long crawlWaitReload, long crawlWaitEvent) {
 
         WebDriverManager.firefoxdriver().setup();
@@ -117,7 +124,7 @@ public class BrowserProvider implements AutoCloseable {
                 filterAttributes, crawlWaitReload, crawlWaitEvent);
     }
 
-    private EmbeddedBrowser newChromeBrowser(ChromeOptions driverOptions,ImmutableSortedSet<String> filterAttributes,
+    private EmbeddedBrowser newChromeBrowser(ChromeOptions driverOptions, ImmutableSortedSet<String> filterAttributes,
                                              long crawlWaitReload, long crawlWaitEvent) {
 
         WebDriverManager.chromedriver().setup();
@@ -126,6 +133,43 @@ public class BrowserProvider implements AutoCloseable {
         return WebDriverBackedEmbeddedBrowser.withDriver(driverChrome, filterAttributes,
                 crawlWaitEvent, crawlWaitReload);
     }
+
+    public static EmbeddedBrowser withRemoteDriver(Capabilities driverOptions,
+                                                   ImmutableSortedSet<String> filterAttributes, long crawlWaitEvent,
+                                                   long crawlWaitReload) {
+        return WebDriverBackedEmbeddedBrowser.withDriver(buildRemoteWebDriver(driverOptions),
+                filterAttributes, crawlWaitEvent,
+                crawlWaitReload);
+    }
+
+
+    private static RemoteWebDriver buildRemoteWebDriver(Capabilities driverOptions) {
+        DesiredCapabilities capabilities = (DesiredCapabilities) driverOptions;
+        String hubUrl = (String) capabilities.getCapability("remoteUrl");
+        URL url;
+        try {
+            url = new URL(hubUrl);
+        } catch (MalformedURLException e) {
+            LOG.error("The given hub url of the remote server is malformed can not continue!",
+                    e);
+            return null;
+        }
+        HttpCommandExecutor executor = null;
+        try {
+            executor = new HttpCommandExecutor(url);
+        } catch (Exception e) {
+            // TODO Stefan; refactor this catch, this will definitely result in
+            // NullPointers, why
+            // not throw RuntimeException direct?
+            LOG.error(
+                    "Received unknown exception while creating the "
+                            + "HttpCommandExecutor, can not continue!",
+                    e);
+            return null;
+        }
+        return new RemoteWebDriver(executor, capabilities);
+    }
+
 
     @Override
     public void close() throws Exception {

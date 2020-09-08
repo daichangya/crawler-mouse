@@ -24,14 +24,14 @@ public class IndexController {
 //        String mainUrl = "https://club.autohome.com.cn/bbs/forum-c-2733-2.html";
 //        Map<String,String> parameters = Maps.newHashMap();
 //        parameters.put(Spider.MAINURL,mainUrl);
-//        parameters.put("email","dai.changya@xcar.com.cn");
+//        parameters.put("email","dai.changya@xxxxx.com.cn");
 //        new BbsSpiderBuilder().build(parameters).run();
 //        return "OK";
 //    }
 
     @RequestMapping("/testEmail")
     public String testEmail() throws Exception {
-        String emailAdress = "dai.changya@xcar.com.cn";
+        String emailAdress = "dai.changya@xxxxx.com.cn";
         String title = "nihao!";
         File file = new File("/home/daichangya/club.autohome.com.cn.zip");
         EmailUtils.sendEmail(emailAdress, title, "详情见附件", Lists.newArrayList(file));

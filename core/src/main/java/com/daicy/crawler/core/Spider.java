@@ -1,18 +1,21 @@
 package com.daicy.crawler.core;
 
 import com.daicy.crawler.core.downloader.Downloader;
+import com.daicy.crawler.core.filter.Filters;
 import com.daicy.crawler.core.pipeline.CollectorPipeline;
 import com.daicy.crawler.core.pipeline.ConsolePipeline;
 import com.daicy.crawler.core.pipeline.Pipeline;
 import com.daicy.crawler.core.pipeline.ResultItemsCollectorPipeline;
 import com.daicy.crawler.core.plugin.Plugins;
 import com.daicy.crawler.core.processor.PageProcessor;
+import com.daicy.crawler.core.scheduler.MonitorableScheduler;
 import com.daicy.crawler.core.scheduler.QueueScheduler;
-import com.daicy.crawler.core.thread.CountableThreadPool;
+import com.daicy.crawler.core.thread.NamedThreadFactory;
 import com.daicy.crawler.core.utils.WMCollections;
 import com.google.common.collect.Maps;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.SerializationUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.daicy.crawler.core.downloader.HttpClientDownloader;
@@ -23,11 +26,15 @@ import java.io.Closeable;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
+
+import static com.daicy.crawler.core.Request.DEL_KEY_WORD;
 
 /**
  * Entrance of a crawler.<br>
@@ -62,6 +69,8 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Spider implements Runnable, Task {
 
+    private SpiderContext spiderContext = new SpiderContext();
+
     protected Downloader downloader;
 
     protected List<Pipeline> pipelines = new ArrayList<Pipeline>();
@@ -77,8 +86,6 @@ public class Spider implements Runnable, Task {
     protected Scheduler scheduler = new QueueScheduler();
 
     protected Logger logger = LoggerFactory.getLogger(getClass());
-
-    protected CountableThreadPool threadPool;
 
     protected ExecutorService executorService;
 
@@ -103,6 +110,8 @@ public class Spider implements Runnable, Task {
     private Condition newUrlCondition = newUrlLock.newCondition();
 
     private Plugins plugins;
+
+    private Filters filters;
 
     private final AtomicLong pageCount = new AtomicLong(0);
 
@@ -289,9 +298,21 @@ public class Spider implements Runnable, Task {
         return this;
     }
 
+    public Filters getFilters() {
+        return filters;
+    }
+
+    public Spider setFilters(Filters filters) {
+        this.filters = filters;
+        return this;
+    }
+
     protected void initComponent() {
         if (plugins == null) {
             this.plugins = new Plugins();
+        }
+        if (filters == null) {
+            this.filters = new Filters();
         }
         if (downloader == null) {
             this.downloader = new HttpClientDownloader();
@@ -300,12 +321,8 @@ public class Spider implements Runnable, Task {
             pipelines.add(new ConsolePipeline());
         }
         downloader.setThread(threadNum);
-        if (threadPool == null || threadPool.isShutdown()) {
-            if (executorService != null && !executorService.isShutdown()) {
-                threadPool = new CountableThreadPool(threadNum, executorService);
-            } else {
-                threadPool = new CountableThreadPool(threadNum);
-            }
+        if (executorService == null) {
+            executorService = Executors.newFixedThreadPool(threadNum, new NamedThreadFactory(getUUID()));
         }
         if (startRequests != null) {
             for (Request request : startRequests) {
@@ -324,17 +341,26 @@ public class Spider implements Runnable, Task {
         plugins.runBeforeCrawlingPlugins(this);
         while (!Thread.currentThread().isInterrupted() && stat.get() == STAT_RUNNING) {
             final Request request = scheduler.poll(this);
+            ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) executorService;
             if (request == null) {
-                if (threadPool.getThreadAlive() == 0 && exitWhenComplete) {
+                if (threadPoolExecutor.getCompletedTaskCount() >= threadPoolExecutor.getTaskCount()
+                        && exitWhenComplete) {
                     break;
                 }
+                MonitorableScheduler monitorableScheduler = (MonitorableScheduler) scheduler;
+                logger.info("Spider {} is run! leftRequest:{} totalRequest:{}", getUUID(),
+                        monitorableScheduler.getLeftRequestsCount(this),
+                        monitorableScheduler.getTotalRequestsCount(this));
                 // wait until new url added
                 waitNewUrl();
             } else {
-                threadPool.execute(new Runnable() {
+                executorService.execute(new Runnable() {
                     @Override
                     public void run() {
                         try {
+                            if (filters.runBeforeDownloadFilters(request, spiderContext)) {
+                                return;
+                            }
                             Page page = processRequest(request);
                             plugins.runAfterProcessSuccess(request, page);
                         } catch (Exception e) {
@@ -377,7 +403,7 @@ public class Spider implements Runnable, Task {
         for (Pipeline pipeline : pipelines) {
             destroyEach(pipeline);
         }
-        threadPool.shutdown();
+        executorService.shutdown();
     }
 
     private void destroyEach(Object object) {
@@ -420,6 +446,7 @@ public class Spider implements Runnable, Task {
     private void onDownloadSuccess(Request request, Page page) {
         if (site.getAcceptStatCode().contains(page.getStatusCode())) {
             pageProcessor.process(page);
+            this.spiderContext.addDelKeyWords(page.getDelTargetWords());
             extractAndAddRequests(page, spawnUrl);
             if (!page.getResultItems().isSkip()) {
                 for (Pipeline pipeline : pipelines) {
@@ -562,7 +589,8 @@ public class Spider implements Runnable, Task {
         newUrlLock.lock();
         try {
             //double check
-            if (threadPool.getThreadAlive() == 0 && exitWhenComplete) {
+            ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) executorService;
+            if (threadPoolExecutor.getCompletedTaskCount() >= threadPoolExecutor.getTaskCount() && exitWhenComplete) {
                 return;
             }
             newUrlCondition.await(emptySleepTime, TimeUnit.MILLISECONDS);
@@ -702,10 +730,11 @@ public class Spider implements Runnable, Task {
      * @since 0.4.1
      */
     public int getThreadAlive() {
-        if (threadPool == null) {
+        if (executorService == null) {
             return 0;
         }
-        return threadPool.getThreadAlive();
+        ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) executorService;
+        return threadPoolExecutor.getActiveCount();
     }
 
     /**
@@ -771,5 +800,9 @@ public class Spider implements Runnable, Task {
     public Spider setParameters(Map<String, String> parameters) {
         this.parameters = parameters;
         return this;
+    }
+
+    public SpiderContext getSpiderContext() {
+        return spiderContext;
     }
 }

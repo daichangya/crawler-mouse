@@ -18,6 +18,8 @@ public class PcautoBbsSpiderBuilderTest {
 
     @Test
     public void build() {
+        System.setProperty("data.home",System.getProperty("user.home")+"/data");
+
 //        Plugins plugins = new Plugins();
 //        plugins.addPlugins(Lists.newArrayList(new AfterCrawlingZip()));
 //
@@ -45,12 +47,8 @@ public class PcautoBbsSpiderBuilderTest {
                 "      {\n" +
                 "        \"targetUrl\": {\n" +
                 "          \"value\": [\n" +
-                "            \".*bbs.pcauto.com.cn/forum-.*html\"\n" +
+                "            \".*club.autohome.com.cn/bbs/forum-.*html\"\n" +
                 "          ]\n" +
-                "        },\n" +
-                "        \"extractBy\": {\n" +
-                "          \"value\": \"#topic_list > form > table\",\n" +
-                "          \"type\": \"Css\"\n" +
                 "        },\n" +
                 "        \"fieldModels\": [\n" +
                 "          {\n" +
@@ -63,14 +61,14 @@ public class PcautoBbsSpiderBuilderTest {
                 "          {\n" +
                 "            \"name\": \"content\",\n" +
                 "            \"extractBy\": {\n" +
-                "              \"value\": \"//*/tbody\"\n" +
+                "              \"value\": \"//*/ul[@class='post-list']\"\n" +
                 "            }\n" +
                 "          },\n" +
                 "          {\n" +
                 "            \"name\": \"links\",\n" +
                 "            \"type\": \"java.util.List\",\n" +
                 "            \"extractBy\": {\n" +
-                "              \"value\": \"//*/a[@class='topicurl']/@href\"\n" +
+                "              \"value\": \"//*/p[@class='post-title']/a/@href\"\n" +
                 "            }\n" +
                 "          }\n" +
                 "        ]\n" +
@@ -80,25 +78,24 @@ public class PcautoBbsSpiderBuilderTest {
                 "      {\n" +
                 "        \"targetUrl\": {\n" +
                 "          \"value\": [\n" +
-                "            \".*bbs.pcauto.com.cn/topic-.*html\"\n" +
+                "            \".*club.autohome.com.cn/bbs/thread/.*/.*\"\n" +
                 "          ]\n" +
                 "        },\n" +
                 "        \"extractBy\": {\n" +
-                "          \"value\": \"//*[@id='post_message_first']\"\n" +
+                "          \"value\": \"//*/div[@id='maxwrap-maintopic']//*/div[@class='rconten']\"\n" +
                 "        },\n" +
                 "        \"fieldModels\": [\n" +
                 "          {\n" +
                 "            \"name\": \"title\",\n" +
                 "            \"extractBy\": {\n" +
-                "              \"value\": \"//*[@id='subjectTitle']/text()\",\n" +
+                "              \"value\": \"//*/div[@class='maxtitle']/text()\",\n" +
                 "              \"source\": \"RawHtml\"\n" +
                 "            }\n" +
                 "          },\n" +
                 "          {\n" +
                 "            \"name\": \"content\",\n" +
                 "            \"extractBy\": {\n" +
-                "              \"value\": \"div.post_msg\",\n" +
-                "              \"type\": \"Css\"\n" +
+                "              \"value\": \"//*/div[@class='conttxt']\"\n" +
                 "            }\n" +
                 "          },\n" +
                 "          {\n" +
@@ -109,10 +106,11 @@ public class PcautoBbsSpiderBuilderTest {
                 "            }\n" +
                 "          },\n" +
                 "          {\n" +
-                "            \"name\": \"imageList2\",\n" +
-                "            \"type\": \"java.util.List\",\n" +
+                "            \"name\": \"ttfUrl\",\n" +
                 "            \"extractBy\": {\n" +
-                "              \"value\": \"//*/img/@src2\"\n" +
+                "              \"value\": \"[A-Za-z0-9-_/.]*..ttf\",\n" +
+                "              \"type\": \"Regex\",\n" +
+                "              \"source\": \"RawHtml\"\n" +
                 "            }\n" +
                 "          }\n" +
                 "        ]\n" +
@@ -120,16 +118,21 @@ public class PcautoBbsSpiderBuilderTest {
                 "    ]\n" +
                 "  },\n" +
                 "  \"startUrls\": [\n" +
-                "    \"https://bbs.pcauto.com.cn/topic-20291280.html\"\n" +
+                "    \"https://club.autohome.com.cn/bbs/forum-c-526-1.html\"\n" +
                 "  ],\n" +
                 "  \"site\": {\n" +
                 "    \"userAgent\": \"Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)\",\n" +
-                "    \"retryTimes\": 2\n" +
+                "    \"retryTimes\": 2,\n" +
+                "    \"useRealBrowser\": true,\n" +
+                "    \"userProxyProvider\": true\n" +
                 "  },\n" +
-                "  \"threadNum\": 2,\n" +
+                "  \"threadNum\": 3,\n" +
                 "  \"plugins\": [\n" +
                 "    \"com.daicy.crawler.web.plugin.AfterCrawlingZip\"\n" +
-                "  ]\n" +
+                "  ],\n" +
+                "  \"parameters\":{\n" +
+                "    \"email\":\"#email#\"\n" +
+                "  }\n" +
                 "}";
         ConfigurableSpider configurableSpider = ConfigurableSpider.create(jsonStr);
         configurableSpider.build().run();

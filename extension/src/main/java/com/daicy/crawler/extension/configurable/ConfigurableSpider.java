@@ -8,6 +8,7 @@ import com.daicy.crawler.core.Spider;
 import com.daicy.crawler.core.downloader.Downloader;
 import com.daicy.crawler.core.plugin.Plugin;
 import com.daicy.crawler.core.plugin.Plugins;
+import com.daicy.crawler.downer.WebDriverDownloader;
 import com.daicy.crawler.extension.RedisProxyProvider;
 import com.daicy.crawler.extension.model.DynamicModel;
 import com.daicy.crawler.extension.model.FieldModel;
@@ -23,8 +24,10 @@ import com.google.gson.GsonBuilder;
 import org.apache.commons.collections.MapUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Protocol;
 
@@ -124,34 +127,40 @@ public class ConfigurableSpider {
             site.setProxyProvider(redisProxyProvider);
         }
         if (site.isUseRealBrowser()) {
-            FirefoxOptions firefoxOptions = new FirefoxOptions();
-            FirefoxProfile profile = new FirefoxProfile();
-//        profile.setPreference("permissions.default.image", 2);
-            profile.setPreference("browser.migration.version", 9001);
-            profile.setPreference("permissions.default.stylesheet", 2);
-            firefoxOptions.setProfile(profile);
-            firefoxOptions.setCapability("marionette", true);
-            firefoxOptions.setHeadless(true);
-            site.setDriverOptions(firefoxOptions).setBrowserType(BrowserType.FIREFOX).setUseRealBrowser(true);
-            downloader = "com.daicy.crawler.downer.WebDriverDownloader";
+//            FirefoxOptions firefoxOptions = new FirefoxOptions();
+//            FirefoxProfile profile = new FirefoxProfile();
+////        profile.setPreference("permissions.default.image", 2);
+//            profile.setPreference("browser.migration.version", 9001);
+//            profile.setPreference("permissions.default.stylesheet", 2);
+//            firefoxOptions.setProfile(profile);
+//            firefoxOptions.setCapability("marionette", true);
+//            firefoxOptions.setHeadless(true);
+            DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
+            desiredCapabilities.setCapability("remoteUrl", "http://standalone-firefox:4444/wd/hub");
+            site.setDriverOptions(desiredCapabilities).setBrowserType(BrowserType.REMOTE).setUseRealBrowser(true);
+            downloader = WebDriverDownloader.class.getName();
+        } else if (StringUtils.equals(downloader, WebDriverDownloader.class.getName())) {
+            MutableCapabilities mutableCapabilities = new MutableCapabilities();
+            mutableCapabilities.setCapability("browserName", "htmlunit");
+            site.setDriverOptions(mutableCapabilities);
         }
 
         List<? extends Plugin> pluginList = this.plugins.stream().map(pluginStr -> (Plugin) ClassUtils.newInstance(pluginStr)).collect(Collectors.toList());
         Plugins plugins = new Plugins();
         plugins.addPlugins(pluginList);
         Map<PageModelPipeline, List<DynamicModel>> pipelineToModel = Maps.newHashMap();
-        this.pipelineToModel.values().forEach(dynamicModels -> {
-            dynamicModels.forEach(dynamicModel -> {
-                List<String> fieldNames = dynamicModel.getFieldModels().stream().map(FieldModel::getName).collect(Collectors.toList());
-                String URL = "url";
-                if (!fieldNames.contains(URL)) {
-                    FieldModel fieldModel = new FieldModel();
-                    fieldModel.setName(URL);
-                    fieldModel.setExtractByUrl(new ExtractByUrlImpl());
-                    dynamicModel.getFieldModels().add(fieldModel);
-                }
-            });
-        });
+//        this.pipelineToModel.values().forEach(dynamicModels -> {
+//            dynamicModels.forEach(dynamicModel -> {
+//                List<String> fieldNames = dynamicModel.getFieldModels().stream().map(FieldModel::getName).collect(Collectors.toList());
+//                String URL = "url";
+//                if (!fieldNames.contains(URL)) {
+//                    FieldModel fieldModel = new FieldModel();
+//                    fieldModel.setName(URL);
+//                    fieldModel.setExtractByUrl(new ExtractByUrlImpl());
+//                    dynamicModel.getFieldModels().add(fieldModel);
+//                }
+//            });
+//        });
         this.pipelineToModel.keySet().forEach(pipelineStr -> {
             pipelineToModel.put((PageModelPipeline) ClassUtils.newInstance(pipelineStr), this.pipelineToModel.get(pipelineStr));
         });
@@ -161,7 +170,9 @@ public class ConfigurableSpider {
         }
         spider.setPlugins(plugins);
         if (StringUtils.isNotEmpty(downloader)) {
-            spider.setDownloader((Downloader) ClassUtils.newInstance(downloader));
+            Downloader downloaderBean = (Downloader) ClassUtils.newInstance(downloader);
+            downloaderBean.setThread(this.threadNum);
+            spider.setDownloader(downloaderBean);
         }
         if (MapUtils.isNotEmpty(parameters)) {
             spider.setParameters(parameters);

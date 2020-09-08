@@ -20,6 +20,8 @@ public class Request implements Serializable {
 
     public static final String CYCLE_TRIED_TIMES = "_cycle_tried_times";
 
+    public static final String DEL_KEY_WORD = "delKeyWord";
+
     private String url;
 
     private String method;

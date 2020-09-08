@@ -47,6 +47,8 @@ public class Plugins {
             List<? extends Plugin> plugins) {
         ArrayList<Plugin> unusedPlugins = Lists.newArrayList(plugins);
         for (Plugin plugin : plugins) {
+            counters.put(plugin.getClass(), new AtomicInteger());
+            failCounts.put(plugin.getClass(), new AtomicInteger());
             for (Class<?> clazz : plugin.getClass().getInterfaces()) {
                 if (KNOWN_PLUGINS.contains(clazz)) {
                     @SuppressWarnings("unchecked")
@@ -66,8 +68,8 @@ public class Plugins {
     }
 
     private void reportFailingPlugin(Plugin plugin, RuntimeException e) {
-        incrementFailCounterFor(plugin);
         LOGGER.error("Plugin {} caused an error while running. {}", plugin, e.getMessage(), e);
+        incrementFailCounterFor(plugin);
     }
 
     private void incrementFailCounterFor(Plugin plugin) {

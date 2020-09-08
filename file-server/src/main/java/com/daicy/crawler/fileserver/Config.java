@@ -2,7 +2,7 @@ package com.daicy.crawler.fileserver;
 
 public class Config {
 
-    public static String DIR = System.getProperty("user.home");
+    public static String DIR = System.getProperty("data.home");
 
     public static String getDIR() {
         return DIR;

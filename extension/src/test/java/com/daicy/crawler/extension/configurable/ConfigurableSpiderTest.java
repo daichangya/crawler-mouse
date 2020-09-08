@@ -132,7 +132,7 @@ public class ConfigurableSpiderTest {
                 "        \"userAgent\": \"Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)\",\n" +
                 "        \"retryTimes\": 2\n" +
                 "    },\n" +
-                "    \"threadNum\": 2\n" +
+                "    \"threadNum\": 5\n" +
                 "}";
         GsonBuilder builder = new GsonBuilder();
         builder.registerTypeAdapter(ExtractBy.class, InterfaceAdapter.interfaceSerializer(ExtractByImpl.class));

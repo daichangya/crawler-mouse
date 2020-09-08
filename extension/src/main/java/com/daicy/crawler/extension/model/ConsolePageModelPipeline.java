@@ -18,6 +18,10 @@ public class ConsolePageModelPipeline implements PageModelPipeline {
     @Override
     public void process(Object o, Task task) {
         if (o instanceof Map) {
+//            Map map = (Map) o;
+//            if(map.get("status").equals("0")){
+//                System.out.println(JsonUtils.toJson(o));
+//            }
             System.out.println(JsonUtils.toJson(o));
         } else {
             System.out.println(ToStringBuilder.reflectionToString(o));

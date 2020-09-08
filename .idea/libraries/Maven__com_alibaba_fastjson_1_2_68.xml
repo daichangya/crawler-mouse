@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.68/fastjson-1.2.68-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/fastjson-1.2.68-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

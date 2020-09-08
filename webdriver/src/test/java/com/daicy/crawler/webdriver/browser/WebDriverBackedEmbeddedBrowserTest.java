@@ -5,10 +5,10 @@ import com.daicy.crawler.webdriver.BrowserProvider;
 import com.google.common.collect.ImmutableList;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.AbstractDriverOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URI;
@@ -26,14 +26,14 @@ public class WebDriverBackedEmbeddedBrowserTest {
     @Test
     public void withDriver() {
         String url = "https://club.autohome.com.cn/bbs/forum-c-2733-2.html";
-        List<BrowserType> browserTypeList = ImmutableList.of(BrowserType.CHROME,BrowserType.FIREFOX);
+        List<BrowserType> browserTypeList = ImmutableList.of(BrowserType.CHROME, BrowserType.FIREFOX);
         browserTypeList.forEach(browserType -> {
-            if(BrowserType.CHROME.equals(browserType)){
+            if (BrowserType.CHROME.equals(browserType)) {
 //                ChromeOptions optionsChrome = new ChromeOptions();
 //                optionsChrome.setHeadless(true);
 //                testBrowser(url, browserType, optionsChrome);
 //                testBrowser(url, browserType, null);
-            }else {
+            } else {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setHeadless(true);
                 firefoxOptions.setCapability("marionette", true);
@@ -45,9 +45,9 @@ public class WebDriverBackedEmbeddedBrowserTest {
 
     }
 
-    private void testBrowser(String url, BrowserType browserType, AbstractDriverOptions abstractDriverOptions) {
+    private void testBrowser(String url, BrowserType browserType, MutableCapabilities abstractDriverOptions) {
         BrowserProvider provider = new BrowserProvider();
-        EmbeddedBrowser embeddedBrowser = provider.newEmbeddedBrowser(browserType,abstractDriverOptions);
+        EmbeddedBrowser embeddedBrowser = provider.newEmbeddedBrowser(browserType, abstractDriverOptions);
         embeddedBrowser.goToUrl(URI.create(url));
 //            String html = driver.getDom();
         List<String> titleList = embeddedBrowser.getWebDriver().findElements(By.cssSelector("p.post-title a")).stream().map(WebElement::getText)
@@ -55,8 +55,8 @@ public class WebDriverBackedEmbeddedBrowserTest {
         if (null != titleList && titleList.size() > 0) {
             titleList.forEach(System.out::println);
             System.out.println("title " + browserType);
-        }else {
-            System.out.println("kill "+browserType);
+        } else {
+            System.out.println("kill " + browserType);
         }
         embeddedBrowser.getWebDriver().close();
     }
@@ -66,23 +66,37 @@ public class WebDriverBackedEmbeddedBrowserTest {
         String url = "https://club.autohome.com.cn/bbs/thread/05d763eb93d2d28a/89257756-1.html#pvareaid=6830286";
         BrowserProvider provider = new BrowserProvider();
         List<EmbeddedBrowser.BrowserType> browserTypeList = ImmutableList.of(
-                EmbeddedBrowser.BrowserType.CHROME_HEADLESS,EmbeddedBrowser.BrowserType.CHROME,
-                EmbeddedBrowser.BrowserType.FIREFOX_HEADLESS,EmbeddedBrowser.BrowserType.FIREFOX);
+                EmbeddedBrowser.BrowserType.CHROME_HEADLESS, EmbeddedBrowser.BrowserType.CHROME,
+                EmbeddedBrowser.BrowserType.FIREFOX_HEADLESS, EmbeddedBrowser.BrowserType.FIREFOX);
         browserTypeList.forEach(browserType -> {
             RemoteWebDriver driver = provider.newBrowser(browserType);
             driver.get(url);
 //            String html = driver.getDom();
             List<String> titleList = driver.findElements(By.cssSelector("#F0 > div.conright.fr > div.rconten > div.conttxt > div"))
-                    .stream().map(webElement -> {return webElement.getAttribute("innerHTML");})
+                    .stream().map(webElement -> {
+                        return webElement.getAttribute("innerHTML");
+                    })
                     .collect(Collectors.toList());
             if (null != titleList && titleList.size() > 0) {
                 titleList.forEach(System.out::println);
                 System.out.println("title " + browserType);
-            }else {
-                System.out.println("kill "+browserType);
+            } else {
+                System.out.println("kill " + browserType);
             }
             driver.close();
         });
 
+    }
+
+    @Test
+    public void withRemoteDriver() {
+        String url = "https://club.autohome.com.cn/bbs/thread/05d763eb93d2d28a/89257756-1.html#pvareaid=6830286";
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability("remoteHubUrl", "http://localhost:4444/wd/hub");
+        BrowserProvider provider = new BrowserProvider();
+        EmbeddedBrowser driver = provider.newEmbeddedBrowser(BrowserType.REMOTE, capabilities);
+        driver.getWebDriver().get(url);
+        System.out.println(driver.getUnStrippedDom());
+        driver.close();
     }
 }

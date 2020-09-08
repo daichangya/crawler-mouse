@@ -4,6 +4,7 @@ import com.daicy.crawler.common.utils.UrlUtils;
 import com.daicy.crawler.core.Spider;
 import com.daicy.crawler.core.Task;
 import com.daicy.crawler.core.utils.FilePersistentBase;
+import com.daicy.crawler.extension.model.DynamicModel;
 import com.daicy.crawler.extension.pipeline.PageModelPipeline;
 import com.daicy.samples.samples.formatter.MarkDownFormatter;
 import org.apache.commons.collections.CollectionUtils;
@@ -37,7 +38,8 @@ public class ListDownPipeline extends FilePersistentBase implements PageModelPip
         logger.debug("start process uuid : {}", task.getUUID());
         if (o instanceof Map) {
             Map<String, Object> map = (Map) o;
-            mainPath = System.getProperty("user.home") + "/" + task.getUUID() + "/";
+            mainPath = System.getProperty("data.home") + "/" + task.getUUID() + "/";
+            logger.info("mainPath:{}",mainPath);
             task.getParameters().put("mainPath", mainPath);
             task.getParameters().put("title", (String) map.get("title"));
             this.setPath(mainPath);
@@ -45,7 +47,7 @@ public class ListDownPipeline extends FilePersistentBase implements PageModelPip
             List<String> links = (List<String>) map.get("links");
             if (CollectionUtils.isNotEmpty(links)) {
                 Spider spider = (Spider) task;
-                links.stream().map(link -> UrlUtils.extractNewUrl((String) map.get("url"), link)).collect(Collectors.toList())
+                links.stream().map(link -> UrlUtils.extractNewUrl((String) map.get(DynamicModel.REQUESTURL), link)).collect(Collectors.toList())
                         .forEach(link -> {
                             spider.addUrl(link.toString());
                         });

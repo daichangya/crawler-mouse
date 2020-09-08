@@ -1,0 +1,15 @@
+com/daicy/crawler/webdriver/browser/EmbeddedBrowser.class
+com/daicy/crawler/webdriver/BrowserProvider$1.class
+com/daicy/crawler/webdriver/browser/EmbeddedBrowser$BrowserType.class
+com/daicy/crawler/webdriver/BrowserProvider.class
+com/daicy/crawler/webdriver/exception/BrowserConnectionException.class
+com/daicy/crawler/webdriver/utils/DomUtils.class
+com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.class
+com/daicy/crawler/webdriver/state/Identification$1.class
+com/daicy/crawler/webdriver/configuration/IgnoreFrameChecker.class
+com/daicy/crawler/webdriver/exception/CrawljaxException.class
+com/daicy/crawler/webdriver/configuration/AcceptAllFramesChecker.class
+com/daicy/crawler/webdriver/utils/XPathHelper.class
+com/daicy/crawler/webdriver/state/Identification$How.class
+com/daicy/crawler/webdriver/utils/DomDifferenceListener.class
+com/daicy/crawler/webdriver/state/Identification.class

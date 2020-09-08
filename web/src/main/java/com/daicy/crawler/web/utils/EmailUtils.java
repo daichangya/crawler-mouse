@@ -24,7 +24,7 @@ public class EmailUtils {
 
     private static final int MAX_FILE_SIZE = 10 * 1024 * 1024;
 
-    private static final String URL_TEMPLETE = "文件下载链接: http://%s:" + Application.FILE_PORT + "/%s\n";
+    private static final String URL_TEMPLETE = "文件下载链接: http://%s/%s\n";
 
     private static Logger logger = LoggerFactory.getLogger(EmailUtils.class);
 
@@ -41,7 +41,7 @@ public class EmailUtils {
                 if (CollectionUtils.isNotEmpty(fileList)) {
                     for (File file : fileList) {
                         if (file.length() > MAX_FILE_SIZE) {
-                            content = content + String.format(URL_TEMPLETE, IPUtils.getFirstNoLoopbackIPAddresses(), file.getName());
+                            content = content + String.format(URL_TEMPLETE, "crawler-file.xxxxx.com.cn", file.getName());
                             continue;
                         }
                         helper.addAttachment(file.getName(), file);

@@ -1,0 +1,6 @@
+com/daicy/crawler/downer/Test.class
+com/daicy/crawler/downer/WebDriverFactory.class
+com/daicy/crawler/downer/WebDriverFactory$DownerManagerUtils.class
+com/daicy/crawler/downer/WebDriverDownloader.class
+com/daicy/crawler/downer/WebDriverPool.class
+com/daicy/crawler/downer/WebDriverFactory$1.class

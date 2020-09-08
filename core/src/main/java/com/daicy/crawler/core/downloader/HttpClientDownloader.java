@@ -43,7 +43,7 @@ public class HttpClientDownloader extends AbstractDownloader {
     private HttpClientGenerator httpClientGenerator = new HttpClientGenerator();
 
     private HttpUriRequestConverter httpUriRequestConverter = new HttpUriRequestConverter();
-    
+
     private ProxyProvider proxyProvider;
 
     private boolean responseHeader = true;
@@ -79,6 +79,9 @@ public class HttpClientDownloader extends AbstractDownloader {
         if (task == null || task.getSite() == null) {
             throw new NullPointerException("task or site can not be null");
         }
+        if (null == proxyProvider) {
+            proxyProvider = task.getSite().getProxyProvider();
+        }
         CloseableHttpResponse httpResponse = null;
         CloseableHttpClient httpClient = getHttpClient(task.getSite());
         Proxy proxy = proxyProvider != null ? proxyProvider.getProxy(task) : null;
@@ -111,11 +114,14 @@ public class HttpClientDownloader extends AbstractDownloader {
     }
 
     protected Page handleResponse(Request request, String charset, HttpResponse httpResponse, Task task) throws IOException {
+        if(httpResponse.getStatusLine().getStatusCode()!=200){
+            return Page.fail();
+        }
         byte[] bytes = IOUtils.toByteArray(httpResponse.getEntity().getContent());
         String contentType = httpResponse.getEntity().getContentType() == null ? "" : httpResponse.getEntity().getContentType().getValue();
         Page page = new Page();
         page.setBytes(bytes);
-        if (!request.isBinaryContent()){
+        if (!request.isBinaryContent()) {
             if (charset == null) {
                 charset = getHtmlCharset(contentType, bytes);
             }

@@ -8,10 +8,11 @@ import com.daicy.crawler.core.proxy.ProxyProvider;
 import com.daicy.crawler.webdriver.BrowserProvider;
 import com.daicy.crawler.webdriver.browser.EmbeddedBrowser;
 import com.gargoylesoftware.htmlunit.WebClient;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-import org.openqa.selenium.remote.AbstractDriverOptions;
+import org.openqa.selenium.remote.CapabilityType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,13 +50,13 @@ public class WebDriverFactory {
         WebDriver webDriver;
         Site site = task.getSite();
         final BrowserType browserType = site.getBrowserType();
-        final AbstractDriverOptions driverOptions = site.getDriverOptions();
+        final MutableCapabilities driverOptions = site.getDriverOptions();
         ProxyProvider proxyProvider = site.getProxyProvider();
         if (null != proxyProvider) {
             Proxy proxy = new Proxy();
             proxy.setHttpProxy(proxyProvider.getProxy(task).getHostPort());
             proxy.setProxyType(Proxy.ProxyType.MANUAL);
-            driverOptions.setProxy(proxy);
+            driverOptions.setCapability(CapabilityType.PROXY, proxy);
         }
         if (site.isUseRealBrowser()) {
             BrowserProvider provider = new BrowserProvider();

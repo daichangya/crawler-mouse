@@ -1,6 +1,6 @@
 #基础镜像jdk8
 # 注意，这个镜像还集成了actuator健康检查脚本
-FROM data-harbor.xcar.com.cn/xcar_base/oraclejdk8:8.192.12-cleaned
+FROM data-harbor.xxxxx.com.cn/xxxxx_base/oraclejdk8:8.192.12-cleaned
 #添加jar包
 ARG APP_NAME
 ENV app_name=${APP_NAME}

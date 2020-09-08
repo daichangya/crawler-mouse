@@ -8,8 +8,11 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -57,10 +60,9 @@ public class BbsController {
         }
         for (String url : urlList) {
             String templateName = getTemplate(url);
-            File jsonFile = null;
             try {
-                jsonFile = ResourceUtils.getFile("classpath:" + templateName);
-                String jsonStr = FileUtils.readFileToString(jsonFile);
+                Resource resource = new ClassPathResource(templateName);
+                String jsonStr = new String(FileCopyUtils.copyToByteArray(resource.getInputStream()));
                 if (StringUtils.isNotBlank(email)) {
                     jsonStr = jsonStr.replace("#email#", email);
                 }
