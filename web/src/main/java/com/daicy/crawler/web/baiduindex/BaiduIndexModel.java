@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 @TargetUrl("http://index.baidu.com/api/SearchApi/index.*")
 public class BaiduIndexModel {

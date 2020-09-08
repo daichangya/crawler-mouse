@@ -2,133 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb9fd74-f38e-44d3-9624-9719e2a7789f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/src/main/java/com/daicy/crawler/common/utils/StringUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/BeforeDownloadFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/FilterKeyWordRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filters.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/thread/NamedThreadFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/downer/src/test/java/com/daicy/crawler/downer/WebDriverDownloaderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/CsvFileModelPipeline.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/extension/src/test/java/com/daicy/crawler/extension/SimpleHttpClientTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BaiduIndexController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/ttf/ConvertTtf.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/TTFDic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/baiduindex/city.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/baiduindex/keywords.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/baiduindex/keywordsHas.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/resources/baiduindex/province.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/test/java/com/daicy/crawler/web/ttf/ConvertTtfTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webdriver/src/test/java/com/daicy/crawler/webdriver/browser/CrossBrowserTest.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_68.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_68.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" afterPath="$PROJECT_DIR$/common/common.iml" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" afterPath="$PROJECT_DIR$/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/daicy/crawler/common/model/BrowserType.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/daicy/crawler/common/model/BrowserType.java" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/model/BrowserType.class" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/model/BrowserType.class" />
-      <change beforePath="$PROJECT_DIR$/common/target/common.jar" afterPath="$PROJECT_DIR$/common/target/common.jar" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Page.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Page.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Request.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Request.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Site.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Site.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/SpiderContext.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/SpiderContext.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/Plugins.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/Plugins.java" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Page.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Page.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Request.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Request.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$1.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$1.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$Status.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$Status.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/SpiderContext.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/SpiderContext.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientDownloader.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientDownloader.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/Plugins.class" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/Plugins.class" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/crawler-mouse.iml" afterPath="$PROJECT_DIR$/crawler-mouse.iml" />
-      <change beforePath="$PROJECT_DIR$/downer/downer.iml" afterPath="$PROJECT_DIR$/downer/downer.iml" />
-      <change beforePath="$PROJECT_DIR$/downer/pom.xml" afterPath="$PROJECT_DIR$/downer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverDownloader.java" afterPath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverDownloader.java" />
-      <change beforePath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverFactory.java" afterPath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverFactory.java" />
-      <change beforePath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverPool.java" afterPath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverPool.java" />
-      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverDownloader.class" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverDownloader.class" />
-      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$1.class" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$1.class" />
-      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$DownerManagerUtils.class" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$DownerManagerUtils.class" />
-      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory.class" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory.class" />
-      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverPool.class" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverPool.class" />
-      <change beforePath="$PROJECT_DIR$/downer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/downer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/downer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/downer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/extension/extension.iml" afterPath="$PROJECT_DIR$/extension/extension.iml" />
-      <change beforePath="$PROJECT_DIR$/extension/pom.xml" afterPath="$PROJECT_DIR$/extension/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/configurable/ConfigurableSpider.java" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/configurable/ConfigurableSpider.java" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ConsolePageModelPipeline.java" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ConsolePageModelPipeline.java" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/DynamicModel.java" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/DynamicModel.java" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java" />
-      <change beforePath="$PROJECT_DIR$/extension/src/test/java/com/daicy/crawler/extension/configurable/ConfigurableSpiderTest.java" afterPath="$PROJECT_DIR$/extension/src/test/java/com/daicy/crawler/extension/configurable/ConfigurableSpiderTest.java" />
-      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/configurable/ConfigurableSpider.class" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/configurable/ConfigurableSpider.class" />
-      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ConsolePageModelPipeline.class" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ConsolePageModelPipeline.class" />
-      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/DynamicModel.class" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/DynamicModel.class" />
-      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor$1.class" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor$1.class" />
-      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor.class" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor.class" />
-      <change beforePath="$PROJECT_DIR$/extension/target/test-classes/com/daicy/crawler/extension/configurable/ConfigurableSpiderTest.class" afterPath="$PROJECT_DIR$/extension/target/test-classes/com/daicy/crawler/extension/configurable/ConfigurableSpiderTest.class" />
-      <change beforePath="$PROJECT_DIR$/file-server/file-server.iml" afterPath="$PROJECT_DIR$/file-server/file-server.iml" />
-      <change beforePath="$PROJECT_DIR$/file-server/pom.xml" afterPath="$PROJECT_DIR$/file-server/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/file-server/src/main/java/com/daicy/crawler/fileserver/Config.java" afterPath="$PROJECT_DIR$/file-server/src/main/java/com/daicy/crawler/fileserver/Config.java" />
-      <change beforePath="$PROJECT_DIR$/file-server/src/main/java/com/daicy/crawler/fileserver/HttpFileServerHandler.java" afterPath="$PROJECT_DIR$/file-server/src/main/java/com/daicy/crawler/fileserver/HttpFileServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/Config.class" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/Config.class" />
-      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler.class" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler.class" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/samples/pom.xml" afterPath="$PROJECT_DIR$/samples/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/samples/samples.iml" afterPath="$PROJECT_DIR$/samples/samples.iml" />
-      <change beforePath="$PROJECT_DIR$/web/.helm-spring-boot.yaml" afterPath="$PROJECT_DIR$/web/.helm-spring-boot.yaml" />
-      <change beforePath="$PROJECT_DIR$/web/Dockerfile" afterPath="$PROJECT_DIR$/web/Dockerfile" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/Application.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/Application.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/config/XxlJobConfig.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/config/XxlJobConfig.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BbsController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BbsController.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/SampleXxlJob.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/SampleXxlJob.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ImageDownPipeline.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ImageDownPipeline.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ListDownPipeline.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ListDownPipeline.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/plugin/AfterCrawlingZip.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/plugin/AfterCrawlingZip.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/utils/EmailUtils.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/utils/EmailUtils.java" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/autohomeBbs.json" afterPath="$PROJECT_DIR$/web/src/main/resources/autohomeBbs.json" />
-      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/daicy/crawler/web/spiderbuild/PcautoBbsSpiderBuilderTest.java" afterPath="$PROJECT_DIR$/web/src/test/java/com/daicy/crawler/web/spiderbuild/PcautoBbsSpiderBuilderTest.java" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/application.properties" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/autohomeBbs.json" afterPath="$PROJECT_DIR$/web/target/classes/autohomeBbs.json" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/Application.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/Application.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/BbsController.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/BbsController.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ImageDownPipeline.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ImageDownPipeline.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ListDownPipeline.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ListDownPipeline.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/plugin/AfterCrawlingZip.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/plugin/AfterCrawlingZip.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/EmailUtils.class" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/EmailUtils.class" />
-      <change beforePath="$PROJECT_DIR$/web/target/test-classes/com/daicy/crawler/web/spiderbuild/PcautoBbsSpiderBuilderTest.class" afterPath="$PROJECT_DIR$/web/target/test-classes/com/daicy/crawler/web/spiderbuild/PcautoBbsSpiderBuilderTest.class" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
-      <change beforePath="$PROJECT_DIR$/webdriver/pom.xml" afterPath="$PROJECT_DIR$/webdriver/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/webdriver/src/main/java/com/daicy/crawler/webdriver/BrowserProvider.java" afterPath="$PROJECT_DIR$/webdriver/src/main/java/com/daicy/crawler/webdriver/BrowserProvider.java" />
-      <change beforePath="$PROJECT_DIR$/webdriver/src/main/java/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.java" afterPath="$PROJECT_DIR$/webdriver/src/main/java/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.java" />
-      <change beforePath="$PROJECT_DIR$/webdriver/src/test/java/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowserTest.java" afterPath="$PROJECT_DIR$/webdriver/src/test/java/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowserTest.java" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider$1.class" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider$1.class" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider.class" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider.class" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.class" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.class" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/webdriver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/webdriver/target/test-classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowserTest.class" afterPath="$PROJECT_DIR$/webdriver/target/test-classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowserTest.class" />
-      <change beforePath="$PROJECT_DIR$/webdriver/webdriver.iml" afterPath="$PROJECT_DIR$/webdriver/webdriver.iml" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/webdriver/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -148,102 +24,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Plugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/Plugin.java">
+      <file leaf-file-name="BaiduIndexModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="78" column="55" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XxlJobConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/config/XxlJobConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2628#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiduIndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BaiduIndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeforeDownloadPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/BeforeDownloadPlugin.java">
+      <file leaf-file-name="CrawlerXxlJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#3586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageDownPipeline.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ImageDownPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeforeDownloadFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/BeforeDownloadFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
               <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AfterProcessPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/AfterProcessPlugin.java">
+      <file leaf-file-name="FilterKeyWordRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/FilterKeyWordRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pcautoBbs.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/pcautoBbs.json">
+      <file leaf-file-name="Filters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisPriorityScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/RedisPriorityScheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisProxyProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/RedisProxyProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurableSpider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/configurable/ConfigurableSpider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="125" column="52" lean-forward="false" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".helm-spring-boot.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/.helm-spring-boot.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="29" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -261,8 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cycleRetryTimes</find>
-      <find>retryTimes</find>
       <find>htmlunit</find>
       <find>ttfUrl</find>
       <find>threadNum</find>
@@ -291,6 +174,8 @@
       <find>plugin</find>
       <find>pageCount</find>
       <find>xcar</find>
+      <find>@author code4crafter@gmail.com</find>
+      <find>code4crafter@gmail.com</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -298,6 +183,7 @@
       <replace>DynamicModel.REQUESTURL</replace>
       <replace>filter</replace>
       <replace>xxxxx</replace>
+      <replace>@author daichangya@163.com</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -332,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/SampleXxlJob.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/thread/NamedThreadFactory.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/thread/CountableThreadPool.java" />
@@ -381,8 +266,9 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java" />
         <option value="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BaiduIndexController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java" />
       </list>
     </option>
   </component>
@@ -498,6 +384,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
@@ -630,6 +526,75 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="baiduindex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jobhandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="pipeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler-mouse" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler-mouse" type="b2602c69:ProjectViewProjectNode" />
@@ -1181,6 +1146,9 @@
       <recent name="com.daicy.crawler.web.ttf" />
       <recent name="com.daicy.crawler.extension" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.daicy.crawler.web.controller" />
       <recent name="com.daicy.crawler.core.filter" />
@@ -1188,10 +1156,8 @@
       <recent name="com.daicy.crawler.web.baiduindex" />
       <recent name="com.daicy.crawler.core.thread" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/baiduindex" />
       <recent name="$PROJECT_DIR$/web/src/main/resources" />
     </key>
@@ -1488,7 +1454,7 @@
       <workItem from="1598864724036" duration="31374000" />
       <workItem from="1599049990008" duration="29855000" />
       <workItem from="1599204413266" duration="36809000" />
-      <workItem from="1599546079349" duration="407000" />
+      <workItem from="1599546079349" duration="683000" />
     </task>
     <servers />
   </component>
@@ -1525,7 +1491,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98445000" />
+    <option name="totallyTimeSpent" value="98721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
@@ -1751,41 +1717,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/jdk1.8.0_191/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/baiduindex/province.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/SpiderContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ModelPageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/BloomFilterDuplicateRemover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2019,8 +1955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/BeforeDownloadFilter.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filter.java" />
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/plugin/Plugins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -2029,8 +1963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/FilterKeyWordRequest.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filters.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BbsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2053,6 +1985,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+          <folding>
+            <element signature="e#2732#2733#0" expanded="false" />
+            <element signature="e#2798#2799#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2127,8 +2063,8 @@
         <state relative-caret-position="272">
           <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2173,23 +2109,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BaiduIndexController.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="87" lean-forward="false" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8109">
           <caret line="478" column="12" lean-forward="false" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
           <folding>
-            <marker date="1599531610864" expanded="true" signature="22959:22966" ph="{...}" />
+            <marker date="1599546527707" expanded="true" signature="22959:22966" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2285,7 +2210,7 @@
     <entry file="file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/RedisPriorityScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2309,8 +2234,97 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/config/XxlJobConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BaiduIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/pipeline/ImageDownPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/BeforeDownloadFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/FilterKeyWordRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/filter/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/baiduindex/BaiduIndexModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="78" column="55" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
