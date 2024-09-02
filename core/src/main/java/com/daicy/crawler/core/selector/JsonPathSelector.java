@@ -11,7 +11,7 @@ import java.util.Map;
  * JsonPath selector.<br>
  * Used to extract content from JSON.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.1
  */
 public class JsonPathSelector implements Selector {

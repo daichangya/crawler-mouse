@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.3.2
  */
 public abstract class BasicTypeFormatter<T> implements ObjectFormatter<T> {

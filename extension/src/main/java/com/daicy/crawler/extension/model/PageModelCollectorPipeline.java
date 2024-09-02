@@ -9,7 +9,7 @@ import com.daicy.crawler.extension.pipeline.CollectorPageModelPipeline;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.4.0
  */
 class PageModelCollectorPipeline<T> implements CollectorPipeline<T> {

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.3.0
  */
 public abstract class BaseElementSelector implements Selector, ElementSelector {

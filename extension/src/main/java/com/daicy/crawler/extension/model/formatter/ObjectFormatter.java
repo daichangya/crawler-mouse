@@ -1,7 +1,7 @@
 package com.daicy.crawler.extension.model.formatter;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public interface ObjectFormatter<T> {
 

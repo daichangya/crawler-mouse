@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  *         Date: 17/3/11
  *         Time: 10:36
  * @since 0.6.2

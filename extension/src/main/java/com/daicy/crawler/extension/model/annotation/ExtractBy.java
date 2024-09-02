@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 /**
  * Define the extractor for field or class.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 @Retention(java.lang.annotation.RetentionPolicy.RUNTIME)

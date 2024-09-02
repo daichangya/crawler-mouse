@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * parse json
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.0
  */
 public class Json extends PlainText {

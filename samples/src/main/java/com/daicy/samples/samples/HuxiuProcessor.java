@@ -8,7 +8,7 @@ import com.daicy.crawler.core.processor.PageProcessor;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 public class HuxiuProcessor implements PageProcessor {
     @Override

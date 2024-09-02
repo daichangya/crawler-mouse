@@ -13,7 +13,7 @@ import com.daicy.crawler.extension.scheduler.FileCacheQueueScheduler;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 @TargetUrl("https://github.com/\\w+/\\w+")
 @HelpUrl({"https://github.com/\\w+\\?tab=repositories","https://github.com/\\w+","https://github.com/explore/*"})
@@ -44,7 +44,7 @@ public class GithubRepo implements HasKey {
         OOSpider.create(Site.me().setSleepTime(0).setRetryTimes(3),
                 new JsonFilePageModelPipeline(), GithubRepo.class)
                 .addUrl("https://github.com/explore")
-                .setScheduler(new FileCacheQueueScheduler("/data/webmagic/cache/")).thread(15).run();
+                .setScheduler(new FileCacheQueueScheduler("/data/crawler/cache/")).thread(15).run();
     }
 
     @Override

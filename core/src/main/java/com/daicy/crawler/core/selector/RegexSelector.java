@@ -11,7 +11,7 @@ import java.util.regex.PatternSyntaxException;
 /**
  * Selector in regex.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  */
 public class RegexSelector implements Selector {

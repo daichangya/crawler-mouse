@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
  * Define the url patterns for class. <br>
  * All urls matching the pattern will be crawled and extracted for new objects. <br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 @Retention(java.lang.annotation.RetentionPolicy.RUNTIME)

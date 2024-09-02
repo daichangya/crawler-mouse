@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 /**
  * url and html utils.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  */
 public class UrlUtils {

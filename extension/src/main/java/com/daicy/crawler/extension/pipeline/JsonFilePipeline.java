@@ -16,7 +16,7 @@ import java.io.PrintWriter;
 /**
  * Store results to files in JSON format.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public class JsonFilePipeline extends FilePersistentBase implements Pipeline {
@@ -24,10 +24,10 @@ public class JsonFilePipeline extends FilePersistentBase implements Pipeline {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     /**
-     * new JsonFilePageModelPipeline with default path "/data/webmagic/"
+     * new JsonFilePageModelPipeline with default path "/data/crawler/"
      */
     public JsonFilePipeline() {
-        setPath("/data/webmagic");
+        setPath("/data/crawler");
     }
 
     public JsonFilePipeline(String path) {

@@ -8,7 +8,7 @@ import com.daicy.crawler.extension.model.annotation.ExtractBy;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.4.1
  */
 @Experimental

@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 public class QuickStarter {
 

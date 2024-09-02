@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Used for news and articles containing more than one web page. <br>
  * MultiPagePipeline will store parts of object and output them when all parts are extracted.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 @Experimental

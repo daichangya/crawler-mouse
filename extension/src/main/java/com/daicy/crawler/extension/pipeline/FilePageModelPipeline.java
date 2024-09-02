@@ -17,7 +17,7 @@ import java.io.PrintWriter;
  * Use model.getKey() as file name if the model implements HasKey.<br>
  * Otherwise use SHA1 as file name.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.3.0
  */
 public class FilePageModelPipeline extends FilePersistentBase implements PageModelPipeline {
@@ -25,10 +25,10 @@ public class FilePageModelPipeline extends FilePersistentBase implements PageMod
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     /**
-     * new JsonFilePageModelPipeline with default path "/data/webmagic/"
+     * new JsonFilePageModelPipeline with default path "/data/crawler/"
      */
     public FilePageModelPipeline() {
-        setPath("/data/webmagic/");
+        setPath("/data/crawler/");
     }
 
     public FilePageModelPipeline(String path) {

@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 import static com.daicy.crawler.core.selector.Selectors.xpath;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class ZipCodePageProcessor implements PageProcessor {
 

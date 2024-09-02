@@ -5,7 +5,7 @@ import org.apache.commons.lang3.time.DateUtils;
 import java.util.Date;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.3.2
  */
 public class DateFormatter implements ObjectFormatter<Date> {

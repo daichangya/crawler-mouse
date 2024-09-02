@@ -2,7 +2,7 @@ package com.daicy.crawler.core.utils;
 
 /**
  * Stands for features unstable.
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 public @interface Experimental {
 }

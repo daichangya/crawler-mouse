@@ -1,7 +1,7 @@
 package com.daicy.crawler.extension.utils;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 
 import java.util.HashMap;

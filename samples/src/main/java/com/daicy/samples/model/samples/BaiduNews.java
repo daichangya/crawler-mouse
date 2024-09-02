@@ -5,7 +5,7 @@ import com.daicy.crawler.extension.model.OOSpider;
 import com.daicy.crawler.extension.model.annotation.ExtractBy;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class BaiduNews {
 

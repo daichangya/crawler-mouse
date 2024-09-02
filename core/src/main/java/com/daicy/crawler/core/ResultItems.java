@@ -8,7 +8,7 @@ import java.util.Set;
  * Object contains extract results.<br>
  * It is contained in Page and will be processed in pipeline.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  * @see Page
  * @see com.daicy.crawler.core.pipeline.Pipeline

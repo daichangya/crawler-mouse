@@ -4,7 +4,7 @@ import com.daicy.crawler.core.selector.Selector;
 
 /**
  * The object contains 'ExtractBy' information.
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 class Extractor {

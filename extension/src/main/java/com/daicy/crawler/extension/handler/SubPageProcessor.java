@@ -3,7 +3,7 @@ package com.daicy.crawler.extension.handler;
 import com.daicy.crawler.core.Page;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public interface SubPageProcessor extends RequestMatcher {
 

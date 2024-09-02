@@ -11,7 +11,7 @@ import java.util.Map;
  * Print page model in console.<br>
  * Usually used in test.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public class ConsolePageModelPipeline implements PageModelPipeline {

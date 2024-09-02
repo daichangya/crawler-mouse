@@ -8,7 +8,7 @@ import com.daicy.crawler.core.selector.Html;
 /**
  * Base class of downloader with some common methods.
  *
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.0
  */
 public abstract class AbstractDownloader implements Downloader {

@@ -4,7 +4,7 @@ import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.client.protocol.HttpClientContext;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  *         Date: 17/4/8
  *         Time: 19:43
  * @since 0.7.0

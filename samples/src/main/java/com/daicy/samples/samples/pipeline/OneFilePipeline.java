@@ -20,7 +20,7 @@ public class OneFilePipeline extends FilePersistentBase implements Pipeline {
     private PrintWriter printWriter;
 
     public OneFilePipeline() throws FileNotFoundException, UnsupportedEncodingException {
-        this("/data/webmagic/");
+        this("/data/crawler/");
     }
 
     public OneFilePipeline(String path) throws FileNotFoundException, UnsupportedEncodingException {

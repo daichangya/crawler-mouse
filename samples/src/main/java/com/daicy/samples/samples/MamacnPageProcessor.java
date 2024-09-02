@@ -41,9 +41,9 @@ public class MamacnPageProcessor implements PageProcessor {
 
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         Spider.create(new MamacnPageProcessor())
-                .setScheduler(new FileCacheQueueScheduler("/data/webmagic/mamacn"))
+                .setScheduler(new FileCacheQueueScheduler("/data/crawler/mamacn"))
                 .addUrl("http://www.mama.cn/photo/t1-p1.html")
-                .addPipeline(new OneFilePipeline("/data/webmagic/mamacn/data"))
+                .addPipeline(new OneFilePipeline("/data/crawler/mamacn/data"))
                 .thread(5)
                 .run();
     }

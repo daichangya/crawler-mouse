@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.3.2
  */
 @TargetUrl("http://my.oschina.net/flashsword/blog/\\d+")
@@ -29,8 +29,8 @@ public class OschinaBlog {
     private Date date;
 
     public static void main(String[] args) {
-        //results will be saved to "/data/webmagic/" in json format
-        OOSpider.create(Site.me(), new JsonFilePageModelPipeline("/data/webmagic/"), OschinaBlog.class)
+        //results will be saved to "/data/crawler/" in json format
+        OOSpider.create(Site.me(), new JsonFilePageModelPipeline("/data/crawler/"), OschinaBlog.class)
                 .addUrl("http://my.oschina.net/flashsword/blog").run();
     }
 

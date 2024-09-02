@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * All selectors will be arranged as a pipeline. <br>
  * The next selector uses the result of the previous as source.
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public class AndSelector implements Selector {

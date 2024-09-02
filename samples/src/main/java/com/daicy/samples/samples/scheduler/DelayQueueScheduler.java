@@ -11,7 +11,7 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class DelayQueueScheduler extends PriorityScheduler {
 

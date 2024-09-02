@@ -14,7 +14,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 @TargetUrl("http://news.163.com/\\d+/\\d+/\\d+/\\w+*.html")
 public class News163 implements MultiPageModel {

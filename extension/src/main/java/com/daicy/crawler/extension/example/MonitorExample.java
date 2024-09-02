@@ -15,7 +15,7 @@ public class MonitorExample {
         Spider zhihuSpider = Spider.create(new ZhihuPageProcessor())
                 .addUrl("http://my.oschina.net/flashsword/blog");
         Spider githubSpider = Spider.create(new GithubRepoPageProcessor())
-                .addUrl("https://github.com/code4craft");
+                .addUrl("https://github.com/daichangya");
 
         zhihuSpider.start();
         githubSpider.start();

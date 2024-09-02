@@ -10,7 +10,7 @@ import com.daicy.crawler.extension.pipeline.PageModelPipeline;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 @TargetUrl("http://my.oschina.net/flashsword/blog/\\d+")
 public class OschinaBlog{

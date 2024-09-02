@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Links selector based on jsoup. Use absolute url. <br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.7.0
  */
 public class LinksSelector extends BaseElementSelector {

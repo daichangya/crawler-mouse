@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * Object contains setting for crawler.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @see PageProcessor
  * @since 0.1.0
  */

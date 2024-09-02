@@ -9,7 +9,7 @@ import com.daicy.crawler.extension.scheduler.RedisScheduler;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * Date: 13-4-21
  * Time: 下午1:48
  */

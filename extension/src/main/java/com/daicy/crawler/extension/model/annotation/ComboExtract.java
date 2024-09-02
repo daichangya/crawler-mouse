@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 /**
  * Combo 'ExtractBy' extractor with and/or operator.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.1
  */
 @Retention(java.lang.annotation.RetentionPolicy.RUNTIME)

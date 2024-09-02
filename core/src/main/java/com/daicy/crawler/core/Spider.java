@@ -52,15 +52,15 @@ import static com.daicy.crawler.core.Request.DEL_KEY_WORD;
  * Store results to files by FilePipeline: <br>
  * Spider.create(new SimplePageProcessor("http://my.oschina.net/",
  * "http://my.oschina.net/*blog/*")) <br>
- * .pipeline(new FilePipeline("/data/temp/webmagic/")).run(); <br>
+ * .pipeline(new FilePipeline("/data/temp/crawler/")).run(); <br>
  * <br>
  * Use FileCacheQueueScheduler to store urls and cursor in files, so that a
  * Spider can resume the status when shutdown. <br>
  * Spider.create(new SimplePageProcessor("http://my.oschina.net/",
  * "http://my.oschina.net/*blog/*")) <br>
- * .scheduler(new FileCacheQueueScheduler("/data/temp/webmagic/cache/")).run(); <br>
+ * .scheduler(new FileCacheQueueScheduler("/data/temp/crawler/cache/")).run(); <br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @see Downloader
  * @see Scheduler
  * @see PageProcessor

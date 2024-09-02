@@ -9,7 +9,7 @@ import com.daicy.crawler.core.Task;
  * manage urls to fetch
  * remove duplicate urls
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  */
 public interface Scheduler {

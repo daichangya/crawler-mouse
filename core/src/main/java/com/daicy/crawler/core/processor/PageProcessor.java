@@ -12,7 +12,7 @@ import com.daicy.crawler.core.Site;
  * how the urls to fetch are detected               <br>
  * how the data are extracted and stored             <br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @see Site
  * @see Page
  * @since 0.1.0

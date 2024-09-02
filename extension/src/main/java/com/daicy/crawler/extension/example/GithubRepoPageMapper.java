@@ -7,7 +7,7 @@ import com.daicy.crawler.core.processor.PageProcessor;
 import com.daicy.crawler.extension.model.PageMapper;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.3.2
  */
 public class GithubRepoPageMapper implements PageProcessor {
@@ -35,6 +35,6 @@ public class GithubRepoPageMapper implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new GithubRepoPageMapper()).addUrl("https://github.com/code4craft").thread(5).run();
+        Spider.create(new GithubRepoPageMapper()).addUrl("https://github.com/daichangya").thread(5).run();
     }
 }

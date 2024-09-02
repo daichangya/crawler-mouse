@@ -5,7 +5,7 @@ import com.daicy.crawler.core.Task;
 import com.daicy.crawler.core.scheduler.PriorityScheduler;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class LevelLimitScheduler extends PriorityScheduler {
 

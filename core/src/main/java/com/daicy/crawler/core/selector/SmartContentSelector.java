@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Borrowed from https://code.google.com/p/cx-extractor/
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.4.1
  *
  */

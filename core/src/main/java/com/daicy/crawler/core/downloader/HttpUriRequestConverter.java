@@ -23,7 +23,7 @@ import com.daicy.crawler.core.utils.UrlUtils;
 import java.util.Map;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  *         Date: 17/3/18
  *         Time: 11:28
  *

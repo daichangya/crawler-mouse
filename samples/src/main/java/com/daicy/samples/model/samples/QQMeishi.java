@@ -7,7 +7,7 @@ import com.daicy.crawler.extension.model.annotation.ExtractBy;
 import com.daicy.crawler.extension.model.annotation.TargetUrl;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 @TargetUrl("http://meishi.qq.com/beijing/c/all[\\-p2]*")
 @ExtractBy(value = "//ul[@id=\"promos_list2\"]/li",multi = true)

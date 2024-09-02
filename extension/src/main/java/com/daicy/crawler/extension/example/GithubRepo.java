@@ -12,7 +12,7 @@ import com.daicy.crawler.extension.model.annotation.TargetUrl;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.3.2
  */
 @TargetUrl("https://github.com/\\w+/\\w+")
@@ -43,7 +43,7 @@ public class GithubRepo implements HasKey {
     public static void main(String[] args) {
         OOSpider.create(Site.me().setSleepTime(100)
                 , new ConsolePageModelPipeline(), GithubRepo.class)
-                .addUrl("https://github.com/code4craft").thread(10).run();
+                .addUrl("https://github.com/daichangya").thread(10).run();
     }
 
     @Override

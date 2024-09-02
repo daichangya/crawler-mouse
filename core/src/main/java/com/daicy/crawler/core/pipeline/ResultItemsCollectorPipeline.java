@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.4.0
  */
 public class ResultItemsCollectorPipeline implements CollectorPipeline<ResultItems> {

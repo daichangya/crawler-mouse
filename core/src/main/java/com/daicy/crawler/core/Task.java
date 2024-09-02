@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Interface for identifying different tasks.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  * @see com.daicy.crawler.core.scheduler.Scheduler
  * @see Pipeline

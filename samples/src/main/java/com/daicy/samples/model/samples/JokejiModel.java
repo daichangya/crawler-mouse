@@ -9,7 +9,7 @@ import com.daicy.crawler.extension.model.annotation.TargetUrl;
 import com.daicy.crawler.extension.scheduler.RedisScheduler;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 @TargetUrl("http://www.jokeji.cn/jokehtml/jy/\\d+.htm")
 @HelpUrl("http://www.jokeji.cn/list\\w+.htm")

@@ -14,7 +14,7 @@ import javax.management.JMException;
 import java.io.IOException;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 @TargetUrl("http://www.36kr.com/p/\\d+.html")
 @HelpUrl("http://www.36kr.com/#/page/\\d+")

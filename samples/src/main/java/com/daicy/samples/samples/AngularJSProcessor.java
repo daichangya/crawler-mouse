@@ -10,7 +10,7 @@ import com.daicy.crawler.core.selector.JsonPathSelector;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.0
  */
 public class AngularJSProcessor implements PageProcessor {

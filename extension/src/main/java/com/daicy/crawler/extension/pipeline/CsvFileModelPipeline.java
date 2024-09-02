@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Store results to files in JSON format.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public class CsvFileModelPipeline extends FilePersistentBase implements PageModelPipeline {
@@ -24,10 +24,10 @@ public class CsvFileModelPipeline extends FilePersistentBase implements PageMode
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     /**
-     * new JsonFilePageModelPipeline with default path "/data/webmagic/"
+     * new JsonFilePageModelPipeline with default path "/data/crawler/"
      */
     public CsvFileModelPipeline() {
-        setPath("/data/webmagic");
+        setPath("/data/crawler");
     }
 
     public CsvFileModelPipeline(String path) {

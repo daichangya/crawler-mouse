@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 /**
  * The spider for page model extractor.<br>
- * In webmagic, we call a POJO containing extract result as "page model". <br>
+ * In crawler, we call a POJO containing extract result as "page model". <br>
  * You can customize a crawler by write a page model with annotations. <br>
  * Such as:
  * <pre>
@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
  * }
  * </pre>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public class OOSpider<T> extends Spider {

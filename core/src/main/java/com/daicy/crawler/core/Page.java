@@ -24,7 +24,7 @@ import java.util.Map;
  * {@link #getResultItems()} get extract results to be used in {@link Pipeline}<br>
  * {@link #addTargetRequests(List)} {@link #addTargetRequest(String)} add urls to fetch                 <br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @see com.daicy.crawler.core.downloader.Downloader
  * @see com.daicy.crawler.core.processor.PageProcessor
  * @since 0.1.0

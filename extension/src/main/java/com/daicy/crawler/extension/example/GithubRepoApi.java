@@ -10,7 +10,7 @@ import com.daicy.crawler.extension.model.annotation.ExtractByUrl;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.4.1
  */
 public class GithubRepoApi implements HasKey {
@@ -36,7 +36,7 @@ public class GithubRepoApi implements HasKey {
     public static void main(String[] args) {
         OOSpider.create(Site.me().setSleepTime(100)
                 , new ConsolePageModelPipeline(), GithubRepoApi.class)
-                .addUrl("https://api.github.com/repos/code4craft/webmagic").run();
+                .addUrl("https://api.github.com/repos/daichangya/crawler-mouse").run();
     }
 
     @Override

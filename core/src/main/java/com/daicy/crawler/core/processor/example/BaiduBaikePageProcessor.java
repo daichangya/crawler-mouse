@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.4.0
  */
 public class BaiduBaikePageProcessor implements PageProcessor {

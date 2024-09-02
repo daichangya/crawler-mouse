@@ -7,7 +7,7 @@ import java.util.Collection;
 /**
  * Extract an object of more than one pages, such as news and articles.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 @Experimental

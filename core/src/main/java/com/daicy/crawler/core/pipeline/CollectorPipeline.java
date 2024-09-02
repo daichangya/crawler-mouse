@@ -6,7 +6,7 @@ import java.util.List;
  * Pipeline that can collect and store results. <br>
  * Used for {@link com.daicy.crawler.core.Spider#getAll(java.util.Collection)}
  *
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  * @since 0.4.0
  */
 public interface CollectorPipeline<T> extends Pipeline {

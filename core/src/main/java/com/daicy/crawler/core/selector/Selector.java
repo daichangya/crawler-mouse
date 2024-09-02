@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Selector(extractor) for text.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  */
 public interface Selector {

@@ -8,7 +8,7 @@ import com.daicy.crawler.core.proxy.ProxyProvider;
 import com.daicy.crawler.extension.model.PageMapper;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  *         Date: 2017/5/27
  * @since 0.7.0
  */

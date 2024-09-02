@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class CollectorPageModelPipeline<T> implements PageModelPipeline<T> {
 

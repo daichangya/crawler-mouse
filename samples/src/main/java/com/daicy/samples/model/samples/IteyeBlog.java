@@ -6,7 +6,7 @@ import com.daicy.crawler.extension.model.annotation.ExtractBy;
 import com.daicy.crawler.extension.model.annotation.TargetUrl;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * Date: 13-8-2 <br>
  * Time: 上午7:52 <br>
  */

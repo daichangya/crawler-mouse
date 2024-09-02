@@ -6,7 +6,7 @@ import com.daicy.crawler.core.Spider;
 import com.daicy.crawler.core.processor.PageProcessor;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * Date: 13-5-20
  * Time: 下午5:31
  */

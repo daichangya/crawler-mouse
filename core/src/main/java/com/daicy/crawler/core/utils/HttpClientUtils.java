@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  *         Date: 17/3/27
  */
 public abstract class HttpClientUtils {

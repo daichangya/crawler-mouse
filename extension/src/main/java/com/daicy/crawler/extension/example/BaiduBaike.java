@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @since 0.4.0
- * @author code4crafter@gmail.com
+ * @author daichangya@163.com
  */
 public class BaiduBaike{
 

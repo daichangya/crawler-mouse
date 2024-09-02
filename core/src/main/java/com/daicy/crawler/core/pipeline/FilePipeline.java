@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Store results in files.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.1.0
  */
 public class FilePipeline extends FilePersistentBase implements Pipeline {
@@ -24,10 +24,10 @@ public class FilePipeline extends FilePersistentBase implements Pipeline {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     /**
-     * create a FilePipeline with default path"/data/webmagic/"
+     * create a FilePipeline with default path"/data/crawler/"
      */
     public FilePipeline() {
-        setPath("/data/webmagic/");
+        setPath("/data/crawler/");
     }
 
     public FilePipeline(String path) {

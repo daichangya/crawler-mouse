@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * Define how the result string is convert to an object for field.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.3.2
  */
 @Retention(java.lang.annotation.RetentionPolicy.RUNTIME)

@@ -6,7 +6,7 @@ import com.daicy.crawler.core.Spider;
 import com.daicy.crawler.core.processor.PageProcessor;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  */
 public class IteyeBlogProcessor implements PageProcessor {
 

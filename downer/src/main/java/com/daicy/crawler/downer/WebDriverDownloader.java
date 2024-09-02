@@ -19,7 +19,7 @@ import java.io.IOException;
  * 使用Selenium调用浏览器进行渲染。目前仅支持chrome。<br>
  * 需要下载Selenium driver支持。<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * Date: 13-7-26 <br>
  * Time: 下午1:37 <br>
  */
