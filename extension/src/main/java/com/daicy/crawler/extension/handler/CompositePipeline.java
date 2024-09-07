@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class CompositePipeline implements Pipeline {
 

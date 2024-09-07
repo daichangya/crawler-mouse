@@ -7,7 +7,7 @@ import com.daicy.crawler.core.processor.PageProcessor;
 import com.daicy.crawler.core.scheduler.PriorityScheduler;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class AlexanderMcqueenGoodsProcessor implements PageProcessor {
 

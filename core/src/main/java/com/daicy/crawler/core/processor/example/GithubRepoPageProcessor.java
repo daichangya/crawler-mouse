@@ -18,12 +18,13 @@ public class GithubRepoPageProcessor implements PageProcessor {
         page.addTargetRequests(page.getHtml().links().regex("(https://github\\.com/[\\w\\-]+/[\\w\\-]+)").all());
         page.addTargetRequests(page.getHtml().links().regex("(https://github\\.com/[\\w\\-])").all());
         page.putField("author", page.getUrl().regex("https://github\\.com/(\\w+)/.*").toString());
-        page.putField("name", page.getHtml().xpath("//h1[@class='public']/strong/a/text()").toString());
+        page.putField("name", page.getHtml().xpath("//strong[@class='mr-2 flex-self-stretch']/a/text()").toString());
+//        page.putField("name", page.getHtml().xpath("//h1[contains(@class, 'entry-title') and contains(@class, 'public')]/strong/a/text()").toString());
         if (page.getResultItems().get("name")==null){
             //skip this page
             page.setSkip(true);
         }
-        page.putField("readme", page.getHtml().xpath("//div[@id='readme']/tidyText()"));
+        page.putField("readme", page.getHtml().xpath("//article[@class='markdown-body entry-content container-lg']/tidyText()"));
     }
 
     @Override
@@ -32,6 +33,6 @@ public class GithubRepoPageProcessor implements PageProcessor {
     }
 
     public static void main(String[] args) {
-        Spider.create(new GithubRepoPageProcessor()).addUrl("https://github.com/daichangya").thread(5).run();
+        Spider.create(new GithubRepoPageProcessor()).addUrl("https://github.com/daichangya/crawler-mouse").thread(5).run();
     }
 }

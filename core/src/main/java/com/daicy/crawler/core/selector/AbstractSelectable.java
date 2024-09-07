@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.2
  */
 public abstract class AbstractSelectable implements Selectable {

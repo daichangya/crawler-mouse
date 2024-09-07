@@ -1,7 +1,7 @@
 package com.daicy.crawler.extension.handler;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public abstract class PatternProcessor extends PatternRequestMatcher implements SubPipeline, SubPageProcessor {
     /**

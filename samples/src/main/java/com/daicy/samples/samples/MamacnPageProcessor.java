@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class MamacnPageProcessor implements PageProcessor {
 

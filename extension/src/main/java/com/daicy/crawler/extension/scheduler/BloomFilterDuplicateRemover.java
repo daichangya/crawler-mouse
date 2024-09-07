@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * BloomFilterDuplicateRemover for huge number of urls.
  *
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.1
  */
 public class BloomFilterDuplicateRemover implements DuplicateRemover {

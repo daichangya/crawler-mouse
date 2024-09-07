@@ -5,340 +5,323 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fb9fd74-f38e-44d3-9624-9719e2a7789f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_68.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_assertthat_selenium_shutterbug_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_dreamhead_moco_core_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_1_2_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_native_1_2_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_constants_0_9_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_enxio_0_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_netdb_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_posix_3_0_54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_unixsocket_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_backport9_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_invokebinder_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_options_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_martiansoftware_nailgun_server_0_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_emoji_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_strikethrough_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_ins_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_superscript_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_tables_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_wikilink_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_html2md_converter_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_jira_converter_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_ast_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_builder_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_collection_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_data_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_dependency_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_format_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_html_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_misc_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_options_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_sequence_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_visitor_0_61_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_42_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_saxon_Saxon_HE_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlcleaner_htmlcleaner_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_cssparser_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_12_v20180830.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_dirgra_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_46.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_9_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_core_9_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_stdlib_9_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_33_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_43_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__us_codecraft_xsoup_0_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlunit_xmlunit_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/AfterExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/fields/MultipleField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/fields/PageField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/fields/SingleField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/sources/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/sources/SourceTextExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/enorth/EnorthModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/ResultItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/ResultItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Site.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/AbstractDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/AbstractDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/Downloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientRequestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientRequestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpUriRequestConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpUriRequestConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/model/HttpRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/model/HttpRequestBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/CollectorPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/CollectorPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/ConsolePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/ConsolePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/FilePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/FilePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/Pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/Pipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/ResultItemsCollectorPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/ResultItemsCollectorPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/PageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/PageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/SimplePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/SimplePageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/BaiduBaikePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/BaiduBaikePageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/InterfaceAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/InterfaceAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/model/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/model/BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ArrayListUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ArrayListUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ByteUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ByteUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/CollectionsCheckUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/CollectionsCheckUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/DOMComparer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/DOMComparer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/DbHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/DbHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ExceptionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ExceptionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/HtmlNamespace.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/HtmlNamespace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JavaSerializeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JavaSerializeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JaxbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JaxbUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsonUtils$MapJsonDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsonUtils$MapJsonDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/MD5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/MD5Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/MapUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/MapUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ObjectCheckUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ObjectCheckUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/TelPhoneUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/TelPhoneUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ThreadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/ThreadUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/UrlUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/UrlUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/XMLObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/daicy/crawler/common/utils/XMLObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/GithubRepoPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/GithubRepoPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/ZhihuPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/proxy/SimpleProxyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/proxy/SimpleProxyProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/MonitorableScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/MonitorableScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/PriorityScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/PriorityScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/QueueScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/QueueScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/Scheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/AndSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/AndSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/BaseElementSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/BaseElementSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/CssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/CssSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/ElementSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/ElementSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/DuplicateRemovedScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/DuplicateRemovedScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/component/DuplicateRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/component/DuplicateRemover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/component/HashSetDuplicateRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/scheduler/component/HashSetDuplicateRemover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/AbstractSelectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/AbstractSelectable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/HtmlNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/HtmlNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/JsonPathSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/JsonPathSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/LinksSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/LinksSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/OrSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/OrSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/PlainText.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/PlainText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/RegexResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/RegexResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/RegexSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/RegexSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/ReplaceSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/ReplaceSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/Selectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/SmartContentSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/SmartContentSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/XpathSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/selector/XpathSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/CharsetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/CharsetUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/Experimental.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/Experimental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/FilePersistentBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/FilePersistentBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/HttpClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/UrlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/UrlUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/WMCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/WMCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-mouse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/downer/downer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/downer/src/main/java/com/daicy/crawler/downer/WebDriverPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/extension.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/MultiPageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/MultiPageModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/SimpleHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/SimpleHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/AppStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/AppStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/BaiduBaike.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/BaiduBaike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/thread/CountableThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/thread/CountableThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/HttpConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/utils/HttpConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/HttpProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/HttpProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/ResultItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/ResultItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Site.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/Spider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/SpiderContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/SpiderContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/AbstractDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/AbstractDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/CustomRedirectStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/CustomRedirectStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/Downloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/Downloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientRequestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpClientRequestContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpUriRequestConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/downloader/HttpUriRequestConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/AbstractHttpException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/AbstractHttpException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/BaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/TimeoutException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/exception/TimeoutException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/ConsolePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/ConsolePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/FilePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/FilePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/Pipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/Pipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/ResultItemsCollectorPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/pipeline/ResultItemsCollectorPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterCrawlingPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterCrawlingPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterDownloadPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterDownloadPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterProcessPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/AfterProcessPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/BeforeCrawlingPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/BeforeCrawlingPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/BeforeDownloadPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/BeforeDownloadPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/GeneratesOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/GeneratesOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/HostInterfaceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/HostInterfaceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/Plugins.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/Plugins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/Parameter$ParameterType.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/Parameter$ParameterType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/Parameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/Parameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/PluginDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/PluginDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/OptionList$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/OptionList$Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/Parameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/Parameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/PluginDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/plugin/descriptor/jaxb/generated/PluginDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/PageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/PageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/SimplePageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/SimplePageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/BaiduBaikePageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/BaiduBaikePageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/GithubRepoPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/GithubRepoPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/ZhihuPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/processor/example/ZhihuPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/Proxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/ProxyProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/ProxyProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/SimpleProxyProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/proxy/SimpleProxyProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/DuplicateRemovedScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/DuplicateRemovedScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/MonitorableScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/MonitorableScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/PriorityScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/QueueScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/QueueScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/Scheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/component/DuplicateRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/component/DuplicateRemover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/component/HashSetDuplicateRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/scheduler/component/HashSetDuplicateRemover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/AbstractSelectable.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/AbstractSelectable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/AndSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/AndSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/BaseElementSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/BaseElementSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/CssSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/CssSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/ElementSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/ElementSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Html.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Html.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/HtmlNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/HtmlNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/JsonPathSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/JsonPathSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/LinksSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/LinksSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/OrSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/OrSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/PlainText.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/PlainText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/RegexResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/RegexResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/RegexSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/RegexSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/ReplaceSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/ReplaceSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selectable.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selectable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/Selectors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/SmartContentSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/SmartContentSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/XpathSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/selector/XpathSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/thread/CountableThreadPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/thread/CountableThreadPool$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/thread/CountableThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/thread/CountableThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/CharsetUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/CharsetUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/FilePersistentBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/FilePersistentBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/HttpClientUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/NumberUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/NumberUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/ProxyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/ProxyUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/UrlUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/UrlUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/WMCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/core/utils/WMCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/extension/model/HttpRequestBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/daicy/crawler/extension/model/HttpRequestBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/downer/target/classes/com/daicy/crawler/downer/WebDriverPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/extension/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/configurable/ConfigurableSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/configurable/ConfigurableSpider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepoApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepoPageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepoPageMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/MonitorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/MonitorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/OschinaBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/OschinaBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/PatternProcessorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/PatternProcessorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/CompositePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/CompositePageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/SubPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/SubPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ConsolePageModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ConsolePageModelPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/CompositePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/CompositePipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/PatternProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/PatternProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/RequestMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/RequestMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/SubPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/handler/SubPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/Extractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/FieldExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/FieldExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/HasKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/HasKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ModelPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ModelPageProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ModelPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/OOSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/OOSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelCollectorPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelCollectorPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ComboExtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ComboExtract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ExtractBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ExtractBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ExtractByUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/ExtractByUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/Formatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/HelpUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/HelpUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/TargetUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/annotation/TargetUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/DateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/DateFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatterBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatterBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatters.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter/ObjectFormatters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/CollectorPageModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/CollectorPageModelPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/CsvFileModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/CsvFileModelPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/FilePageModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/FilePageModelPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/JsonFilePageModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/JsonFilePageModelPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/JsonFilePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/JsonFilePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/MultiPagePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/MultiPagePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/PageModelPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/pipeline/PageModelPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/BloomFilterDuplicateRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/BloomFilterDuplicateRemover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/RedisScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/scheduler/RedisScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/ClassUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/DoubleKeyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/DoubleKeyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/ExtractorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/ExtractorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/MultiKeyMapBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/MultiKeyMapBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/RequestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/RequestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-server/file-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/samples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/main/QuickStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/main/QuickStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/BaiduNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/BaiduNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/GithubRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/GithubRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/IteyeBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/IteyeBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/JokejiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/JokejiModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/Kr36NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/Kr36NewsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/News163.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/News163.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/OschinaBlog.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/OschinaBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/QQMeishi.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/model/samples/QQMeishi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AngularJSProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AngularJSProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/DiandianBlogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/DiandianBlogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/DiaoyuwengProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/DiaoyuwengProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/F58PageProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/F58PageProcesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/GithubRepoPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/GithubRepoPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/HuxiuProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/HuxiuProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/InfoQMiniBookProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/InfoQMiniBookProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/IteyeBlogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/IteyeBlogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/KaichibaProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/KaichibaProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/IPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/utils/IPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/src/test/java/com/daicy/crawler/extension/configurable/ConfigurableSpiderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/MultiPageModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/MultiPageModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/RedisProxyProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/RedisProxyProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/SimpleHttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/SimpleHttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/configurable/ConfigurableSpider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/AppStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/AppStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/BaiduBaike.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/BaiduBaike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepoApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepoApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepoPageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/GithubRepoPageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/MonitorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/MonitorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/OschinaBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/OschinaBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/example/PatternProcessorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/CompositePageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/CompositePageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/CompositePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/CompositePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/PatternProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/PatternProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/PatternRequestMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/PatternRequestMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/RequestMatcher$MatchOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/RequestMatcher$MatchOther.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/RequestMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/RequestMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/SubPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/SubPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/SubPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/handler/SubPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ClassToModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ClassToModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ConsolePageModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ConsolePageModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/DynamicModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/DynamicModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/Extractor$Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/Extractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/Extractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/FieldExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/FieldExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/FieldModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/FieldModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ModelPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ModelPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/ModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/OOSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/OOSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelCollectorPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelCollectorPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/PageModelExtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ComboExtract$Op.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ComboExtract$Op.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ComboExtract$Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ComboExtract$Source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$Source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$ValueType.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/ExtractBy$ValueType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ComboExtractImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ComboExtractImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ExtractByImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ExtractByImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ExtractByUrlImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/ExtractByUrlImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/FormatterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/FormatterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/HelpUrlImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/HelpUrlImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/TargetUrlImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/annotation/impl/TargetUrlImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$BooleanFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$BooleanFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$ByteFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$ByteFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$CharactorFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$CharactorFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$DoubleFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$DoubleFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$FloatFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$FloatFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$IntegerFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$IntegerFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$LongFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$LongFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$ShortFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter$ShortFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/BasicTypeFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/DateFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/DateFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatterBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatterBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatters.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/model/formatter/ObjectFormatters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/CollectorPageModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/CollectorPageModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/FilePageModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/FilePageModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/JsonFilePageModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/JsonFilePageModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/JsonFilePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/JsonFilePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/MultiPagePipeline$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/MultiPagePipeline$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/MultiPagePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/MultiPagePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/PageModelPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/pipeline/PageModelPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/BloomFilterDuplicateRemover.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/BloomFilterDuplicateRemover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/FileCacheQueueScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/RedisPriorityScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/RedisPriorityScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/RedisScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/scheduler/RedisScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/ClassUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/ClassUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/DoubleKeyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/DoubleKeyMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/ExtractorUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/ExtractorUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/MultiKeyMapBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/MultiKeyMapBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/RequestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension/target/classes/com/daicy/crawler/extension/utils/RequestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/FileServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/FileServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/FileServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-server/target/classes/com/daicy/crawler/fileserver/HttpFileServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AlexanderMcqueenGoodsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AlexanderMcqueenGoodsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AmanzonPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/AmanzonPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/GithubRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/GithubRepoPageProcessor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/MamacnPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/MamacnPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/MeicanProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/MeicanProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/NjuBBSProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/NjuBBSProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/QzoneBlogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/QzoneBlogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/SinaBlogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/SinaBlogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/TianyaPageProcesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/TianyaPageProcesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/ZhihuPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/ZhihuPageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/MarkDownPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/MarkDownPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/OneFilePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/OneFilePipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/DelayQueueScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/DelayQueueScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/LevelLimitScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/LevelLimitScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/ZipCodePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/scheduler/ZipCodePageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webdriver/webdriver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/ReplacePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/samples/src/main/java/com/daicy/samples/samples/pipeline/ReplacePipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/main/QuickStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/main/QuickStarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/BaiduNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/BaiduNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/GithubRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/GithubRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/IteyeBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/IteyeBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/JokejiModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/JokejiModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/JuejinModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/JuejinModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/Kr36NewsModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/Kr36NewsModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/Kr36NewsModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/Kr36NewsModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/News163.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/News163.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/OschinaBlog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/OschinaBlog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/OschinaBlog.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/OschinaBlog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/QQMeishi.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/model/samples/QQMeishi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AlexanderMcqueenGoodsProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AlexanderMcqueenGoodsProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AmanzonPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AmanzonPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AngularJSProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/AngularJSProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/DiandianBlogProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/DiandianBlogProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/DiaoyuwengProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/DiaoyuwengProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/F58PageProcesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/F58PageProcesser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/FirstDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/FirstDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/GithubRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/GithubRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/GithubRepoPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/GithubRepoPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/HuxiuProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/HuxiuProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/InfoQMiniBookProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/InfoQMiniBookProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/IteyeBlogProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/IteyeBlogProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/KaichibaProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/KaichibaProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/MamacnPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/MamacnPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/MeicanProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/MeicanProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/NjuBBSProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/NjuBBSProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/QzoneBlogProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/QzoneBlogProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/SinaBlogProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/SinaBlogProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/TianyaPageProcesser.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/TianyaPageProcesser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/ZhihuPageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/ZhihuPageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/formatter/MarkDownFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/formatter/MarkDownFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/formatter/StringTemplateFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/formatter/StringTemplateFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/pipeline/MarkDownPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/pipeline/MarkDownPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/pipeline/OneFilePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/pipeline/OneFilePipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/DelayQueueScheduler$RequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/DelayQueueScheduler$RequestWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/DelayQueueScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/DelayQueueScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/LevelLimitScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/LevelLimitScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/ZipCodePageProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/samples/scheduler/ZipCodePageProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/utils/ZipUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/samples/target/classes/com/daicy/samples/utils/ZipUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BbsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/daicy/crawler/web/controller/BbsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/daicy/crawler/web/spiderbuild/PcautoBbsSpiderBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/config/XxlJobConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/BbsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/BbsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/FreeMakerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/FreeMakerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/jobhandler/CrawlerXxlJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/jobhandler/SampleXxlJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ImageDownPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ImageDownPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ListDownPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/pipeline/ListDownPipeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/plugin/AfterCrawlingZip.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/plugin/AfterCrawlingZip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/ClassLoaderUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/ClassLoaderUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/EmailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/EmailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/SpringAppContextUtil$AppContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/SpringAppContextUtil$AppContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/SpringAppContextUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/daicy/crawler/web/utils/SpringAppContextUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/BrowserProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/EmbeddedBrowser$BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/EmbeddedBrowser$BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/EmbeddedBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/EmbeddedBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/browser/WebDriverBackedEmbeddedBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/configuration/AcceptAllFramesChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/configuration/AcceptAllFramesChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/configuration/IgnoreFrameChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/configuration/IgnoreFrameChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/exception/BrowserConnectionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/exception/BrowserConnectionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/exception/CrawljaxException.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/exception/CrawljaxException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/state/Identification$How.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/state/Identification$How.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/state/Identification.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/state/Identification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/DomDifferenceListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/DomDifferenceListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/DomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/DomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/XPathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/webdriver/target/classes/com/daicy/crawler/webdriver/utils/XPathHelper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1463,32 +1446,34 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/daichangya/workspace/study/crawler-mouse/pom.xml"
+    "last_opened_file_path": "/Users/daichangya/workspace/study/crawler-mouse/extension/src/main/java/com/daicy/crawler/extension/model"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model" />
+      <recent name="$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/formatter" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/web/src/main/resources/baiduindex" />
+      <recent name="$PROJECT_DIR$/web/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.daicy.crawler.downer" />
       <recent name="com.daicy.crawler.web.ttf" />
       <recent name="com.daicy.crawler.extension" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.daicy.crawler.web.enorth" />
       <recent name="com.daicy.crawler.web.controller" />
       <recent name="com.daicy.crawler.core.filter" />
       <recent name="com.daicy.crawler.extension.pipeline" />
       <recent name="com.daicy.crawler.web.baiduindex" />
-      <recent name="com.daicy.crawler.core.thread" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources/baiduindex" />
-      <recent name="$PROJECT_DIR$/web/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaiduIndexTest">
+  <component name="RunManager" selected="Application.GithubRepoPageMapper">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="HEIGHT" value="300" />
@@ -1559,7 +1544,7 @@
     </configuration>
     <configuration name="BaiduIndexModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.web.baiduindex.BaiduIndexModel" />
-      <module name="crawler-web" />
+      <module name="web" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -1571,13 +1556,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaiduIndexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.web.baiduindex.BaiduIndexTest" />
-      <module name="crawler-web" />
+    <configuration name="GithubRepoPageMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.extension.example.GithubRepoPageMapper" />
+      <module name="extension" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.daicy.crawler.web.baiduindex.*" />
+          <option name="PATTERN" value="com.daicy.crawler.extension.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubRepoPageProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.core.processor.example.GithubRepoPageProcessor" />
+      <module name="core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daicy.crawler.core.processor.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageModelExtractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.extension.model.PageModelExtractor" />
+      <module name="extension" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daicy.crawler.extension.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1591,57 +1604,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PcautoBbsSpiderBuilderTest.build" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.daicy.crawler.web.spiderbuild.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.daicy.crawler.web.spiderbuild" />
-      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.web.spiderbuild.PcautoBbsSpiderBuilderTest" />
-      <option name="METHOD_NAME" value="build" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebDriverDownloaderTest.download" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="downer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.daicy.crawler.downer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.daicy.crawler.downer" />
-      <option name="MAIN_CLASS_NAME" value="com.daicy.crawler.downer.WebDriverDownloaderTest" />
-      <option name="METHOD_NAME" value="download" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.daicy.crawler.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daicy.crawler.web.Application" />
-      <module name="crawler-web" />
-      <envs />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1661,18 +1629,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.BaiduIndexTest" />
-      <item itemvalue="Application.BaiduIndexModel" />
-      <item itemvalue="JUnit.PcautoBbsSpiderBuilderTest.build" />
-      <item itemvalue="JUnit.WebDriverDownloaderTest.download" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GithubRepoPageMapper" />
+        <item itemvalue="Application.PageModelExtractor" />
+        <item itemvalue="Application.GithubRepoPageProcessor" />
         <item itemvalue="Application.BaiduIndexModel" />
-        <item itemvalue="Application.BaiduIndexTest" />
-        <item itemvalue="JUnit.PcautoBbsSpiderBuilderTest.build" />
-        <item itemvalue="JUnit.WebDriverDownloaderTest.download" />
       </list>
     </recent_temporary>
   </component>
@@ -1781,9 +1743,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1807,16 +1766,6 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/downloader/HttpClientDownloader.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/htmlunit-driver/2.33.0/htmlunit-driver-2.33.0-sources.jar!/org/openqa/selenium/htmlunit/HtmlUnitDriver.java</url>
           <line>720</line>
           <option name="timeStamp" value="67" />
@@ -1837,19 +1786,24 @@
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/org/apache/http/protocol/HttpCoreContext.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/PageModelExtractor.java</url>
-          <line>263</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/model/ConsolePageModelPipeline.java</url>
           <line>19</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/pipeline/ConsolePipeline.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/extension/src/main/java/com/daicy/crawler/extension/example/GithubRepoPageMapper.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/daicy/crawler/core/processor/example/GithubRepoPageProcessor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/client/protocol/HttpClientContext.java</url>
@@ -1872,13 +1826,8 @@
         <watch expression="site.getSleepTime()" language="JAVA" />
       </configuration>
       <configuration name="Application">
-        <watch expression="origin.getPath()" language="JAVA" />
-        <watch expression="cookie.getPath()" language="JAVA" />
-        <watch expression="origin.getHost()" language="JAVA" />
-        <watch expression="page.getRawText()" language="JAVA" />
-        <watch expression="spiderContext.getDelRequestKeyWords()" language="JAVA" />
-        <watch expression="scheduler" language="JAVA" />
-        <watch expression="filters" language="JAVA" />
+        <watch expression="page.getUrl()" language="JAVA" />
+        <watch expression="targetUrlPatterns" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

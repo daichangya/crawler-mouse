@@ -2,7 +2,7 @@ package com.daicy.crawler.core.utils;
 
 /**
  * Some constants of Http protocal.
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.0
  */
 public abstract class HttpConstant {

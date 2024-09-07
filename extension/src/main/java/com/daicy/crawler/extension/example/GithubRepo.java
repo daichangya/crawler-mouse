@@ -15,17 +15,17 @@ import java.util.List;
  * @author daichangya@163.com <br>
  * @since 0.3.2
  */
-@TargetUrl("https://github.com/\\w+/\\w+")
+@TargetUrl("https://github.com/\\w+/\\S+(?:-\\S+)*")
 @HelpUrl({"https://github.com/\\w+\\?tab=repositories", "https://github.com/\\w+", "https://github.com/explore/*"})
 public class GithubRepo implements HasKey {
 
-    @ExtractBy(value = "//h1[@class='public']/strong/a/text()", notNull = true)
+    @ExtractBy(value = "//strong[@class='mr-2 flex-self-stretch']/a/text()", notNull = true)
     private String name;
 
     @ExtractByUrl("https://github\\.com/(\\w+)/.*")
     private String author;
 
-    @ExtractBy("//div[@id='readme']/tidyText()")
+    @ExtractBy("//article[@class='markdown-body entry-content container-lg']/tidyText()")
     private String readme;
 
     @ExtractBy(value = "//div[@class='repository-lang-stats']//li//span[@class='lang']/text()", multi = true)

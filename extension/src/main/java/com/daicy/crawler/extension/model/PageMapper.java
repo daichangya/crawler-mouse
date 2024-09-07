@@ -5,7 +5,7 @@ import com.daicy.crawler.core.Page;
 import java.util.List;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.2
  */
 public class PageMapper<T> {

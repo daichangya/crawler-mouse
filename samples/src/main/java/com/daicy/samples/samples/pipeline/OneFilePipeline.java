@@ -11,7 +11,7 @@ import java.io.*;
 import java.util.Map;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class OneFilePipeline extends FilePersistentBase implements Pipeline {
 

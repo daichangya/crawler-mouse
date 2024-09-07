@@ -9,7 +9,7 @@ import com.daicy.crawler.core.selector.Html;
 import java.util.List;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class AmanzonPageProcessor implements PageProcessor{
     public void process(Page page) {

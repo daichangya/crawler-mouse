@@ -5,7 +5,7 @@ import com.daicy.crawler.core.processor.example.GithubRepoPageProcessor;
 import com.daicy.crawler.core.processor.example.ZhihuPageProcessor;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  * @since 0.5.0
  */
 public class MonitorExample {

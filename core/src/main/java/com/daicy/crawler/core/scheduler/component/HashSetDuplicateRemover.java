@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author code4crafer@gmail.com
+ * @author daichangya@163.com
  */
 public class HashSetDuplicateRemover implements DuplicateRemover {
 
