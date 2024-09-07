@@ -6,7 +6,7 @@ import com.daicy.crawler.core.Page;
 /**
  * Interface to be implemented by page models that need to do something after fields are extracted.<br>
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 public interface AfterExtractor {

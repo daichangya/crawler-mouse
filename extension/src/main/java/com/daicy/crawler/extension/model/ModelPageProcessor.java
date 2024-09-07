@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 /**
  * The extension to PageProcessor for page model extractor.
  *
- * @author code4crafter@gmail.com <br>
+ * @author daichangya@163.com <br>
  * @since 0.2.0
  */
 class ModelPageProcessor implements PageProcessor {
