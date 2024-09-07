@@ -1,4 +1,66 @@
-# crawler-mouse
+## 微信公众号
+
+扫码关注微信公众号，Java码界探秘。
+![Java码界探秘](http://www.images.mdan.top/qrcode_for_gh_1e2587cc42b1_258_1587996055777.jpg)
+
+[https://zthinker.com/](https://zthinker.com/)
+
+# crawler-mouse （https://github.com/daichangya/crawler-mouse）
+基于Java实现的 爬虫框架
+
+
+
+```
+                     +---------------------+  
+                    |     Data Input      |  
+                    | -------------------- |  
+                    |  Config Files (JSON, |  
+                    |    TXT) & Resources  |  
+                    +--------+-------------+  
+                              |  
+                              v  
+               +-----------------------+  
+               |   Core Processing     |  
+               |  ---------------------|  
+               |  Spider Engine        |  
+               |  - Task Management    |  
+               |  - Data Extraction    |  
+               |  - HTTP Requests      |  
+               |  (Using Site Config)  |  
+               +-----+--------+--------+  
+                            |  
+                            v  
+               +-----------------------+  
+               |     Data Storage      |  
+               |  ---------------------|  
+               |  File System (CSV)    |  
+               |  (Or Databases)       |  
+               +-------------+---------+  
+                              |  
+      +------------------------+------+  
+      |                                |  
+ +------+-----+          +-----+------+  
+ | Logging   |          | Exceptions   |  
+ | -------- |          | ----------   |  
+ |  Logger   |          |  Handler     |  
+ +-----------+          +-------------+
+```
+
+1.  **数据输入层**
+    *   包含了配置文件、数据库或其他外部数据源，这些文件如`baiduindex/province.json`、`baiduindex/city.json`和`baiduindex/keywords.txt`，为爬虫提供地域、城市和关键词数据。
+2.  **核心处理层**
+    *   **Spider引擎**：利用`OOSpider`（或自定义的Spider引擎）进行任务的调度和管理，包括并发控制、任务分配等。
+    *   **爬虫任务管理**：包括任务创建（如`baiduIndexBuild`方法内构造的请求列表）、执行（如`spider.run()`方法调用）以及任务间依赖的管理。
+    *   **数据提取**：利用注解如`@ExtractBy`从网页或API返回的JSON数据中提取特定字段，如关键词、总体趋势平均值等。
+    *   **网络请求**：使用配置好的Site信息（如用户代理、请求头、cookies等）通过HTTP请求API或网页数据。
+3.  **数据存储层**
+    *   将爬取到的数据存储到文件系统（如CSV文件通过`CsvFileModelPipeline`）或数据库等持久化存储系统中。
+4.  **异常与日志处理**
+    *   日志记录器（如使用`LoggerFactory.getLogger`）记录程序执行过程中的错误、警告等信息，方便调试和问题追踪。
+    *   异常处理（如在文件读取、数据处理时捕获`IOException`并记录错误）。
+5.  **外部接口与工具**
+    *   使用第三方库如`json-utils`、`FileCopyUtils`、`StringUtils`等进行数据处理和文件操作。
+    *   支持命令行接口（CLI），通过`main`方法启动爬虫任务。
 
 ### 爬取百度指数
 
