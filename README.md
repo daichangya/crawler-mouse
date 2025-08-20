@@ -3,7 +3,7 @@
 扫码关注微信公众号，Java码界探秘。
 ![Java码界探秘](http://images.zthinker.com/qrcode_for_gh_1e2587cc42b1_258_1587996055777.jpg)
 
-[https://zthinker.com/](https://zthinker.com/)
+[https://jsdiff.com/](https://jsdiff.com/)
 
 # crawler-mouse （https://github.com/daichangya/crawler-mouse）
 基于Java实现的 爬虫框架
